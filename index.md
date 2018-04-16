@@ -1,4 +1,4 @@
-# 卓智創互動科技
+# 卓智創意互動科技
 * 官網：[http://www.wtech.com.tw/](http://www.wtech.com.tw/)
 * Facebook：[https://www.facebook.com/wisetech.dakuo/](https://www.facebook.com/wisetech.dakuo/) 
 
@@ -87,9 +87,9 @@ Unit還有這種使用方式(之一)?! 只有想不到，沒有做不到。
   - ![Image](./img/RobotAxis.jpg)
     - A1~A6
     
-  - 手臂程式執行方式 
-    - 先教點 
-    - 用指令讓手臂重現動作 
+  - 手臂程式執行方式
+    - 先教點
+    - 用指令讓手臂重現動作 
     
     
 - 實際上機器手臂的硬體有這幾個部份 
