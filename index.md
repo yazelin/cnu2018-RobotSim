@@ -131,12 +131,12 @@ Unit還有這種使用方式(之二)?! 只有想不到，沒有做不到。
 
 
 
-# 加入夾爪功能
+# 加入夾爪Gripper 功能
 1. 夾爪程式
 1. 手臂指令程式
 1. 夾爪建構/動畫
 
-## 夾爪程式
+## 夾爪程式 Gripper.cs
 
 ```cs
 //Gripper.cs
@@ -208,7 +208,7 @@ public class Gripper : MonoBehaviour
 
 ```
 
-## 手臂指令程式
+## 手臂指令程式 RobotCommandGripper.cs
 ```cs
 //RobotCommandGripper.cs
 using UnityEngine;
