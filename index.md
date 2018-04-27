@@ -134,8 +134,8 @@ Unit還有這種使用方式(之二)?! 只有想不到，沒有做不到。
 # 加入夾爪Gripper 功能
 1. 夾爪程式
 1. 手臂指令程式
-1. 夾爪建構/動畫
-1. 測試夾爪功能
+1. 夾爪建構/動畫 Animator
+1. Test 測試夾爪功能
 
 ## 夾爪程式 Gripper.cs
 
@@ -289,7 +289,7 @@ public class RobotCommandGripper : RobotCommand
 }
 ```
 
-## 夾爪建構/動畫
+## 夾爪建構/動畫 Animator
 - 建模 Cube夾爪
 - 動畫 
   - 必需要有Idle、Lock、UnLock 三組動畫
