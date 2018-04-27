@@ -32,7 +32,7 @@ Unit還有這種使用方式(之一)?! 只有想不到，沒有做不到。
 ## Unity只能使用在互動應用中?
 * 這些工具能只能做遊戲、APP或AR/VR嗎?
 * 擔心學了以後無處可用嗎?
-* 這幾週的課程內容會教大家，我們是怎麼把工具當作工具用(廢話?)
+* 這幾週的課程內容會教大家，我們是怎麼把工具當作工具用
 
 
 
@@ -136,26 +136,153 @@ Unit還有這種使用方式(之二)?! 只有想不到，沒有做不到。
 1. 手臂指令程式
 
 ## 夾爪程式
-測試程式碼上色
+
 ```cs
-using System.IO.Compression;
+//Gripper.cs
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-#pragma warning disable 414, 3021
-
-namespace MyApplication
+public class Gripper : MonoBehaviour
 {
-    [Obsolete("...")]
-    class Program : IInterface
-    {
-        public static List<int> JustDoIt(int count)
-        {
-            Console.WriteLine($"Hello {Name}!");
-            return new List<int>(new int[] { 1, 2, 3 })
-        }
-    }
+	// Gripper程式會有2種模擬夾取
+	// 1.利用OnTriggerEnter自動取得在夾取範圍內的物件，夾取指令時將該物件的parent設為Gripper
+	// 2.以夾爪播放夾取動畫的方式移動夾爪，並利用Rigidbody產生夾取
+	
+	//準備夾取的物件
+	public Transform readyGet;
+	//目前夾持的物件
+	public Transform holdingObject;
+
+	//夾取指令(將readyGet物件Parent設為Gripper)
+	public void Lock (Transform product)
+	{
+		if(holdingObject==null){
+			if (product)
+			{
+				product.transform.parent = transform;
+				holdingObject = product;
+			}			
+		}
+	}
+
+	//傳回目前所夾持物
+	public Transform Unlock ()
+	{
+		Transform returnObject = holdingObject;
+		holdingObject = null;//清空目前所持物
+
+		return returnObject;
+	}
+
+	//夾取readyGet物件
+	public void LockReadyGet ()
+	{
+		Lock(readyGet);		
+	}
+	//放開夾取物件
+	public void UnlockToWorld ()
+	{
+		if(holdingObject){
+			holdingObject.parent = null;
+		}		
+		holdingObject = null;//把手上拿著的東西丟到世界Root去
+	}
+	//偵測目前可夾取物
+	void OnTriggerEnter (Collider other)
+	{
+		readyGet = other.transform;
+	}
+	//移除目前圖夾取物
+	void OnTriggerExit(Collider other)
+	{
+		if(readyGet == other.transform){
+			readyGet = null;
+		}
+	}
 }
+
+
 ```
 
-
 ## 手臂指令程式
+```cs
+//RobotCommandGripper.cs
+using UnityEngine;
+using RobotSim;
+using System;
+
+public class RobotCommandGripper : RobotCommand
+{
+	//對應操作的夾爪
+	public Gripper gripper;
+	//夾爪動畫
+	public Animator animatorGripper;
+	//夾持命令
+	public bool Lock = false;
+	
+	//檢查是否有設定好夾爪
+	public override bool Check()
+	{
+		if (gripper)
+		{
+			errorMassage = "Gripper is NULL";
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+
+	//執行夾爪動作
+	public override int Execute()
+	{
+		if (Lock)
+		{
+			//夾取(以設定Parent方式)
+			gripper.LockReadyGet();
+			//夾取(播放動畫)
+			if (animatorGripper)
+			{
+				animatorGripper.speed = 1;
+				animatorGripper.Play("Lock", -1,0);
+			}			
+		}
+		else
+		{
+			//放開(以設定parent方式)
+			gripper.UnlockToWorld();
+			//放開(播放動畫)
+			if (animatorGripper)
+			{
+				animatorGripper.speed = 1;
+				animatorGripper.Play("UnLock", -1, 0);
+			}
+		}
+		//動作完成，執行下一行
+		return (line + 1);
+	}
+
+	public override string ExportDat()
+	{
+		//不需要輸出任何程式到Dat檔
+		return "";
+	}
+
+	public override string ExportSrc()
+	{
+		//輸出  GripperLock(true/false);  至 手臂程式src檔內
+		return tab + "GripperLock(" + Lock.ToString() + ");" + Environment.NewLine;
+	}
+
+	public override string UpdateName()
+	{
+		//更新Gameobject在階層視窗內的名稱
+		return (gameObject.name = "GripperLock(" + Lock.ToString() + ")");
+	}
+	
+}
+
+```
+
 
