@@ -131,4 +131,31 @@ Unit還有這種使用方式(之二)?! 只有想不到，沒有做不到。
 
 
 
+# 加入夾爪功能
+1. 夾爪程式
+1. 手臂指令程式
+
+## 夾爪程式
+測試程式碼上色
+```cs
+using System.IO.Compression;
+
+#pragma warning disable 414, 3021
+
+namespace MyApplication
+{
+    [Obsolete("...")]
+    class Program : IInterface
+    {
+        public static List<int> JustDoIt(int count)
+        {
+            Console.WriteLine($"Hello {Name}!");
+            return new List<int>(new int[] { 1, 2, 3 })
+        }
+    }
+}
+```
+
+
+## 手臂指令程式
 
