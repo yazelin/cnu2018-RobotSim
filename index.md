@@ -134,6 +134,7 @@ Unit還有這種使用方式(之二)?! 只有想不到，沒有做不到。
 # 加入夾爪功能
 1. 夾爪程式
 1. 手臂指令程式
+1. 夾爪建構/動畫
 
 ## 夾爪程式
 
@@ -148,26 +149,27 @@ public class Gripper : MonoBehaviour
 	// Gripper程式會有2種模擬夾取
 	// 1.利用OnTriggerEnter自動取得在夾取範圍內的物件，夾取指令時將該物件的parent設為Gripper
 	// 2.以夾爪播放夾取動畫的方式移動夾爪，並利用Rigidbody產生夾取
-	
+
 	//準備夾取的物件
 	public Transform readyGet;
 	//目前夾持的物件
 	public Transform holdingObject;
 
 	//夾取指令(將readyGet物件Parent設為Gripper)
-	public void Lock (Transform product)
+	public void Lock(Transform product)
 	{
-		if(holdingObject==null){
+		if (holdingObject == null)
+		{
 			if (product)
 			{
 				product.transform.parent = transform;
 				holdingObject = product;
-			}			
+			}
 		}
 	}
 
 	//傳回目前所夾持物
-	public Transform Unlock ()
+	public Transform Unlock()
 	{
 		Transform returnObject = holdingObject;
 		holdingObject = null;//清空目前所持物
@@ -176,32 +178,33 @@ public class Gripper : MonoBehaviour
 	}
 
 	//夾取readyGet物件
-	public void LockReadyGet ()
+	public void LockReadyGet()
 	{
-		Lock(readyGet);		
+		Lock(readyGet);
 	}
 	//放開夾取物件
-	public void UnlockToWorld ()
+	public void UnlockToWorld()
 	{
-		if(holdingObject){
+		if (holdingObject)
+		{
 			holdingObject.parent = null;
-		}		
+		}
 		holdingObject = null;//把手上拿著的東西丟到世界Root去
 	}
 	//偵測目前可夾取物
-	void OnTriggerEnter (Collider other)
+	void OnTriggerEnter(Collider other)
 	{
 		readyGet = other.transform;
 	}
 	//移除目前圖夾取物
 	void OnTriggerExit(Collider other)
 	{
-		if(readyGet == other.transform){
+		if (readyGet == other.transform)
+		{
 			readyGet = null;
 		}
 	}
 }
-
 
 ```
 
@@ -220,7 +223,7 @@ public class RobotCommandGripper : RobotCommand
 	public Animator animatorGripper;
 	//夾持命令
 	public bool Lock = false;
-	
+
 	//檢查是否有設定好夾爪
 	public override bool Check()
 	{
@@ -229,7 +232,8 @@ public class RobotCommandGripper : RobotCommand
 			errorMassage = "Gripper is NULL";
 			return true;
 		}
-		else {
+		else
+		{
 			return false;
 		}
 	}
@@ -245,8 +249,8 @@ public class RobotCommandGripper : RobotCommand
 			if (animatorGripper)
 			{
 				animatorGripper.speed = 1;
-				animatorGripper.Play("Lock", -1,0);
-			}			
+				animatorGripper.Play("Lock", -1, 0);
+			}
 		}
 		else
 		{
@@ -280,9 +284,16 @@ public class RobotCommandGripper : RobotCommand
 		//更新Gameobject在階層視窗內的名稱
 		return (gameObject.name = "GripperLock(" + Lock.ToString() + ")");
 	}
-	
-}
 
+}
 ```
 
+## 夾爪建構/動畫
+- 建模 Cube夾爪
+- 動畫 
+  - 必需要有Idle、Lock、UnLock 三組動畫
+  - Idle 當夾爪預設無動作時
+  - Lock 夾爪夾取動作
+  - UnLoad 夾爪放開動作
+ 
 
