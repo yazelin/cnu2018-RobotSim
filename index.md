@@ -316,5 +316,5 @@ public class RobotCommandGripper : RobotCommand
 加入夾爪控制程式碼
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzcwNzg1NF19
+eyJoaXN0b3J5IjpbLTQ4ODIyNzA0LC0xMDc3MDc4NTRdfQ==
 -->
