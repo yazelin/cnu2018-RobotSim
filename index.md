@@ -317,6 +317,6 @@ public class RobotCommandGripper : RobotCommand
 
 test
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NDUzMDM2LC00ODgyMjcwNCwtMTA3Nz
-A3ODU0XX0=
+eyJoaXN0b3J5IjpbLTExMTI0ODEyNDcsMTc0NDUzMDM2LC00OD
+gyMjcwNCwtMTA3NzA3ODU0XX0=
 -->
