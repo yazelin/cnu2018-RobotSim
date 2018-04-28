@@ -126,7 +126,7 @@ Unit還有這種使用方式(之二)?! 只有想不到，沒有做不到。
 1. 夾爪建構/動畫 Animator
   - 建立夾爪(建模軟體或在Unity內可用ProBuilder)
   - 建立動畫(動畫軟體或在Unity內製作Animator動畫)
-  - 於Tool上加入Animator用來播放夾爪動畫(Idle、Lock、UnLock)
+  - 於Tool上加入Animator用來播放夾爪動畫(Idle、Lock、UnLock)    
 Demo 
 > 客人這是你的章魚燒。給你~不給你~再給你~才怪~啦啦啦~  
 ![Image](./img/Takoyaki.gif)  
