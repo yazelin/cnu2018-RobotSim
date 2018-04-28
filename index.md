@@ -3,7 +3,7 @@
 * Facebook：[https://www.facebook.com/wisetech.dakuo/](https://www.facebook.com/wisetech.dakuo/) 
 
 
-## 業界在互動應用中使用哪些工具?
+## 業界在互動應用中的工具
 1. Unity [wiki](https://zh.wikipedia.org/wiki/Unity_(%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E))
 1. Maya [wiki](https://zh.wikipedia.org/wiki/Maya)
 1. 3dMax [wiki](https://zh.wikipedia.org/wiki/3ds_Max)
@@ -14,7 +14,7 @@
 * 例：[互動射擊裝置](https://www.facebook.com/wisetech.dakuo/videos/664104040341755/)
 
 
-## Unity+leapmotion 操控 工業用機器手臂
+## Unity+leapmotion與機器手臂
 * [連結1](https://www.facebook.com/wisetech.dakuo/videos/1212236958861791/)
 * [連結2](https://www.facebook.com/wisetech.dakuo/videos/1225804447505042/)
 
@@ -88,7 +88,7 @@
 
 
 
-## 帶著好奇心探索新世界-RobotSim
+## 探索新世界-RobotSim
  想看看在Unity內可以怎麼玩機器手臂嗎?
 Unit還有這種使用方式(之二)?! 只有想不到，沒有做不到。
 > 想像力是你的超能力 
