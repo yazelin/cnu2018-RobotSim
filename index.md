@@ -111,7 +111,7 @@ Unit還有這種使用方式(之二)?! 只有想不到，沒有做不到。
 
 ## 你想做什麼?
 [歡迎加入RobotSim討論區](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4).
-
+  
 
 
 
@@ -120,14 +120,15 @@ Unit還有這種使用方式(之二)?! 只有想不到，沒有做不到。
 # 加入夾爪Gripper 功能
 1. 夾爪程式
 1. 手臂指令程式
-1. 夾爪建構/動畫 Animator
+  - 影片參考 [連結](https://www.youtube.com/watch?v=xv4v_fOwAC0&index=24&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 1. Test 測試夾爪功能  
+  - 影片參考 [連結](https://www.youtube.com/watch?v=xv4v_fOwAC0&index=25&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 Demo 
 > 客人這是你的章魚燒。給你~不給你~再給你~才怪~啦啦啦~  
 ![Image](./img/Takoyaki.gif)  
 
 
-## 夾爪程式 Gripper.cs
+## 夾爪程式 Gripper
 
 ```cs
 //Gripper.cs
@@ -199,7 +200,7 @@ public class Gripper : MonoBehaviour
 
 ```
 
-## 手臂指令程式 RobotCommandGripper.cs
+## 手臂指令程式 RobotCommandGripper
 ```cs
 //RobotCommandGripper.cs
 using UnityEngine;
