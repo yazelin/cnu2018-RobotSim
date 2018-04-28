@@ -120,9 +120,9 @@ Unit還有這種使用方式(之二)?! 只有想不到，沒有做不到。
 # 加入夾爪Gripper 功能
 1. 夾爪程式
 1. 手臂指令程式
-    - 影片參考 [連結](https://www.youtube.com/watch?v=xv4v_fOwAC0&index=24&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
+    - 影片參考 [連結](https://www.youtube.com/watch?v=2DKrwhG3KW8&index=24&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 1. Test 測試夾爪功能  
-    - 影片參考 [連結](https://www.youtube.com/watch?v=xv4v_fOwAC0&index=25&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
+    - 影片參考 [連結](https://www.youtube.com/watch?v=1RWDpyVuM2E&index=25&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 1. 夾爪建構/動畫 Animator
     - 建立夾爪(建模軟體或在Unity內可用ProBuilder)
     - 建立動畫(動畫軟體或在Unity內製作Animator動畫)
