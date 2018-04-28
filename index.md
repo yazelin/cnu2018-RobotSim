@@ -123,6 +123,10 @@ Unit還有這種使用方式(之二)?! 只有想不到，沒有做不到。
   - 影片參考 [連結](https://www.youtube.com/watch?v=xv4v_fOwAC0&index=24&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 1. Test 測試夾爪功能  
   - 影片參考 [連結](https://www.youtube.com/watch?v=xv4v_fOwAC0&index=25&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
+1. 夾爪建構/動畫 Animator
+  - 建立夾爪(建模軟體或在Unity內可用ProBuilder)
+  - 建立動畫(動畫軟體或在Unity內製作Animator動畫)
+  - 於Tool上加入Animator用來播放夾爪動畫(Idle、Lock、UnLock)
 Demo 
 > 客人這是你的章魚燒。給你~不給你~再給你~才怪~啦啦啦~  
 ![Image](./img/Takoyaki.gif)  
@@ -280,6 +284,10 @@ public class RobotCommandGripper : RobotCommand
 }
 ```
 
+
+## Test 測試夾爪功能
+同學們的遊戲時間
+
 ## 夾爪建構/動畫 Animator
 - 建模 Cube夾爪
 - 動畫 
@@ -287,10 +295,7 @@ public class RobotCommandGripper : RobotCommand
   - Idle 當夾爪預設無動作時
   - Lock 夾爪夾取動作
   - UnLoad 夾爪放開動作
-
-## Test 測試夾爪功能
-同學們的遊戲時間
-
+  
 
 # 夾娃娃機控制
 - 鍵盤控制/UI控制
