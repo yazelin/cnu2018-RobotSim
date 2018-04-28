@@ -102,7 +102,7 @@ Unit還有這種使用方式(之二)?! 只有想不到，沒有做不到。
 - RobotSim-設定Base-設定手臂-匯出程式
   - 影片參考 [連結](https://www.youtube.com/watch?v=izkk5MW-FeY&index=23&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
-## 在RobotSim 中我們還能做什麼?
+## 在RobotSim 中還能做什麼?
 - 加入夾爪讓手臂可以取放物件? OK
 - 把手臂放在滑軌上讓手臂運作空間更大? 好
 - 規劃一條生產線? 可以
