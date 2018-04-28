@@ -33,74 +33,74 @@
 ## 例：RobotSim Webplayer
 
 - 發現問題
-  - 機器手臂一台幾十到幾百萬，客戶在購買之前對它不了解就降低了購買意願，如果可以先玩玩看再決定買不買呢?
+	- 機器手臂一台幾十到幾百萬，客戶在購買之前對它不了解就降低了購買意願，如果可以先玩玩看再決定買不買呢?
 
 - 假設解決辦法 
-  - 不如我們提供手臂讓客戶玩玩看?(公司不會買手臂來只為了讓客戶玩，玩完後決定不買不就浪費錢了)
-  - 那模擬一個虛擬的機器手臂讓客戶玩看看?(可能可行，那要來公司玩嗎?還是可以線上玩?)
-> 如果製作一個線上可以模擬機器手臂運作的機器手臂模擬器應該可行?(假設解決辦法)
+	- 不如我們提供手臂讓客戶玩玩看?(公司不會買手臂來只為了讓客戶玩，玩完後決定不買不就浪費錢了)
+	- 那模擬一個虛擬的機器手臂讓客戶玩看看?(可能可行，那要來公司玩嗎?還是可以線上玩?)
+	> 如果製作一個線上可以模擬機器手臂運作的機器手臂模擬器應該可行?(假設解決辦法)
 
 - 使用工具製作出解決辦法
-  - 製作網頁中的手臂模擬器 -> Unity 可以製作完成後輸出成WebGL 在現代的瀏覽器中可以模擬3D畫面 讓客戶模擬手臂運作
-  - 機器手臂模型 -> 由機器手臂公司可下載得到 轉檔成可輸入Unity的格式即可
+	- 製作網頁中的手臂模擬器 -> Unity 可以製作完成後輸出成WebGL 在現代的瀏覽器中可以模擬3D畫面 讓客戶模擬手臂運作
+	- 機器手臂模型 -> 由機器手臂公司可下載得到 轉檔成可輸入Unity的格式即可
 
 - 使用解決辦法來解決問題
-  - 我們把模擬器放到網站上了
-  - 網址在這邊 [RobotSim WebPlayer](http://www.wtech.com.tw/robotsim)
-  - 歡迎大家來玩~~~ 
+	- 我們把模擬器放到網站上了
+	- 網址在這邊 [RobotSim WebPlayer](http://www.wtech.com.tw/robotsim)
+	- 歡迎大家來玩~~~ 
 
 
 ## 同學們的遊戲時間
 大家邊玩邊我們邊了解一些機器手臂的運作及相關背景知識 
 - 在模擬器中我們可以學到這些
 - ![Image](./img/RobotCoordinateSystem.jpg)
-  - 座標系
-    - WORLD
-    - BASE
-    - TOOL
-    - ![Image](./img/Tool.jpg)
+	- 座標系
+		- WORLD
+		- BASE
+		- TOOL
+		- ![Image](./img/Tool.jpg)
     
-  - 操作方式
-    - XYZ ABC
-    - AXIS
-    
-  - 運動指令
-    - PTP
-    - LIN
-    - CIRC(網頁版的模擬器中沒有) 
-    
-  - 軸極限  
-  - ![Image](./img/RobotAxis.jpg)
-    - A1~A6
-    
-  - 手臂程式執行方式
-    - 先教點
-    - 用指令讓手臂重現動作 
-    
+	- 操作方式
+		- XYZ ABC
+		- AXIS
+
+	- 運動指令
+		- PTP
+		- LIN
+		- CIRC(網頁版的模擬器中沒有) 
+
+	- 軸極限  
+		- ![Image](./img/RobotAxis.jpg)
+		- A1~A6
+
+	- 手臂程式執行方式
+		- 先教點
+		- 用指令讓手臂重現動作 
+
     
 - 實際上機器手臂的硬體有這幾個部份 
-1. 機器手臂 
-1. 機器手臂控制器 
-1. 機器手臂教導盒 
-1. 連接線
-  
- ![Image](./img/RobotSystem.jpg)
+	1. 機器手臂 
+	1. 機器手臂控制器 
+	1. 機器手臂教導盒 
+	1. 連接線
+	
+	![Image](./img/RobotSystem.jpg)
 
 
 
 ## 探索新世界-RobotSim
- 想看看在Unity內可以怎麼玩機器手臂嗎?
+想看看在Unity內可以怎麼玩機器手臂嗎?  
 Unit還有這種使用方式(之二)?! 只有想不到，沒有做不到。
 > 想像力是你的超能力 
 
 - RobotSim 下載-安裝-試用
-  - 影片參考 [連結](https://www.youtube.com/watch?v=xv4v_fOwAC0&index=20&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
+	- 影片參考 [連結](https://www.youtube.com/watch?v=xv4v_fOwAC0&index=20&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 - RobotSim-教點-程式-模擬
-  - 影片參考 [連結](https://www.youtube.com/watch?v=4Gk7K88B10c&index=21&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
+	- 影片參考 [連結](https://www.youtube.com/watch?v=4Gk7K88B10c&index=21&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 - RobotSim-設定Tool-更新點位-模擬動作
-  - 影片參考 [連結](https://www.youtube.com/watch?v=NLA6A_qWDgs&index=22&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
+	- 影片參考 [連結](https://www.youtube.com/watch?v=NLA6A_qWDgs&index=22&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 - RobotSim-設定Base-設定手臂-匯出程式
-  - 影片參考 [連結](https://www.youtube.com/watch?v=izkk5MW-FeY&index=23&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
+	- 影片參考 [連結](https://www.youtube.com/watch?v=izkk5MW-FeY&index=23&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
 ## 在RobotSim 中還能做什麼?
 - 加入夾爪讓手臂可以取放物件? OK
