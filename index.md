@@ -300,14 +300,13 @@ public class RobotCommandGripper : RobotCommand
 # 夾娃娃機控制
 - UI控制
 - 更新手臂動作
-- 夾爪控制
+- (修改)夾爪控制
+- Demo
+- 
 
-
-## 鍵盤控制/UI控制
-- 鍵盤控制
-- UI控制
-  - 加入UI
-  - 對應程式碼
+## UI控制
+- 加入UI
+- 對應程式碼
 
 ## 更新手臂動作
 更新手臂動作程式碼
@@ -316,7 +315,7 @@ public class RobotCommandGripper : RobotCommand
 加入夾爪控制程式碼
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NzkxMTc2MiwyMDc3NDMwNTMzLC0xMT
+eyJoaXN0b3J5IjpbLTIzMjI2MDI5NywyMDc3NDMwNTMzLC0xMT
 EyNDgxMjQ3LDE3NDQ1MzAzNiwtNDg4MjI3MDQsLTEwNzcwNzg1
 NF19
 -->
