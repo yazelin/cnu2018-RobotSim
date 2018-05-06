@@ -302,7 +302,7 @@ public class RobotCommandGripper : RobotCommand
 - 更新手臂動作
 - (修改)夾爪控制
 - Demo
-> 算單的試夾一下~
+> 簡單的試夾一下~
 > ![Image](./img/ClawMachine.gif)
 
 ## UI控制
@@ -316,7 +316,7 @@ public class RobotCommandGripper : RobotCommand
 加入夾爪控制程式碼
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAzMzY5NjgsMjA3NzQzMDUzMywtMTExMj
-Q4MTI0NywxNzQ0NTMwMzYsLTQ4ODIyNzA0LC0xMDc3MDc4NTRd
-fQ==
+eyJoaXN0b3J5IjpbLTE3MDIzMTg4NTAsMzAzMzY5NjgsMjA3Nz
+QzMDUzMywtMTExMjQ4MTI0NywxNzQ0NTMwMzYsLTQ4ODIyNzA0
+LC0xMDc3MDc4NTRdfQ==
 -->
