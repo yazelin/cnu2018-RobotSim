@@ -458,13 +458,14 @@ public class RobotCommandControlRobot : RobotCommand
   - Idle 當夾爪預設無動作時
   - Lock 夾爪夾取動作
   - UnLoad 夾爪放開動作
-- 修改被夾物件Collider IsTrigger 為 False
+- 修改被夾取的物件
+  - Collider IsTrigger 為 False
+  - Rigidbody use Gravity 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTQ5MDMwMjYsLTEzODIyODM4OTAsMT
-E3MDY1ODQwOSwtODYzMDIxMjk5LC05MTU4MzU2NzksMTYxNDQw
-OTY2OSw0ODM3MTc3OTgsMjAwNDgxNjIzNywtMTM0MTA4NzQwMi
-wxNzcyMTI5NTU2LDEyMTY2MDYwNjgsLTEzMzc2NTQzNTgsLTE3
-MDIzMTg4NTAsMzAzMzY5NjgsMjA3NzQzMDUzMywtMTExMjQ4MT
-I0NywxNzQ0NTMwMzYsLTQ4ODIyNzA0LC0xMDc3MDc4NTRdfQ==
-
+eyJoaXN0b3J5IjpbMTMyNTExMjQ3MiwtMTM4MjI4Mzg5MCwxMT
+cwNjU4NDA5LC04NjMwMjEyOTksLTkxNTgzNTY3OSwxNjE0NDA5
+NjY5LDQ4MzcxNzc5OCwyMDA0ODE2MjM3LC0xMzQxMDg3NDAyLD
+E3NzIxMjk1NTYsMTIxNjYwNjA2OCwtMTMzNzY1NDM1OCwtMTcw
+MjMxODg1MCwzMDMzNjk2OCwyMDc3NDMwNTMzLC0xMTEyNDgxMj
+Q3LDE3NDQ1MzAzNiwtNDg4MjI3MDQsLTEwNzcwNzg1NF19
 -->
