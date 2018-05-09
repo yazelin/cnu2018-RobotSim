@@ -111,9 +111,6 @@ Unit還有這種使用方式(之二)?! 只有想不到，沒有做不到。
   
 
 
-
-
-
 # 加入夾爪Gripper 功能
 1. 夾爪程式
 1. 手臂指令程式
@@ -448,10 +445,10 @@ public class RobotCommandControlRobot : RobotCommand
 修改夾爪控制程式碼，當夾爪張開時，物體向下掉落。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NDUwMTU5OCwtOTE1ODM1Njc5LDE2MT
-Q0MDk2NjksNDgzNzE3Nzk4LDIwMDQ4MTYyMzcsLTEzNDEwODc0
-MDIsMTc3MjEyOTU1NiwxMjE2NjA2MDY4LC0xMzM3NjU0MzU4LC
-0xNzAyMzE4ODUwLDMwMzM2OTY4LDIwNzc0MzA1MzMsLTExMTI0
-ODEyNDcsMTc0NDUzMDM2LC00ODgyMjcwNCwtMTA3NzA3ODU0XX
-0=
+eyJoaXN0b3J5IjpbLTE4ODQ4ODc3MjQsLTkxNTgzNTY3OSwxNj
+E0NDA5NjY5LDQ4MzcxNzc5OCwyMDA0ODE2MjM3LC0xMzQxMDg3
+NDAyLDE3NzIxMjk1NTYsMTIxNjYwNjA2OCwtMTMzNzY1NDM1OC
+wtMTcwMjMxODg1MCwzMDMzNjk2OCwyMDc3NDMwNTMzLC0xMTEy
+NDgxMjQ3LDE3NDQ1MzAzNiwtNDg4MjI3MDQsLTEwNzcwNzg1NF
+19
 -->
