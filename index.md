@@ -290,15 +290,11 @@ public class RobotCommandGripper : RobotCommand
 同學們的遊戲時間
 
 ## RobotCommand 流程講解
-
-UpdateName();
-Check();
-ExportSrc();
-ExportDat();
-
-
-		//執行 這個命令物件 執行會回傳行數，若執行完則回傳下一步至第幾行
-		public abstract int Execute();
+- Check()
+- Execute()
+- UpdateName()
+- ExportSrc()
+- ExportDat()
 
 ## 夾爪建構/動畫 Animator
 - 建模 Cube夾爪
@@ -455,9 +451,9 @@ public class RobotCommandControlRobot : RobotCommand
 修改夾爪控制程式碼，當夾爪張開時，物體向下掉落。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwNTIxNjg3LDQ4MzcxNzc5OCwyMDA0OD
-E2MjM3LC0xMzQxMDg3NDAyLDE3NzIxMjk1NTYsMTIxNjYwNjA2
-OCwtMTMzNzY1NDM1OCwtMTcwMjMxODg1MCwzMDMzNjk2OCwyMD
-c3NDMwNTMzLC0xMTEyNDgxMjQ3LDE3NDQ1MzAzNiwtNDg4MjI3
-MDQsLTEwNzcwNzg1NF19
+eyJoaXN0b3J5IjpbMTg0NTAyNDQ3OCw0ODM3MTc3OTgsMjAwND
+gxNjIzNywtMTM0MTA4NzQwMiwxNzcyMTI5NTU2LDEyMTY2MDYw
+NjgsLTEzMzc2NTQzNTgsLTE3MDIzMTg4NTAsMzAzMzY5NjgsMj
+A3NzQzMDUzMywtMTExMjQ4MTI0NywxNzQ0NTMwMzYsLTQ4ODIy
+NzA0LC0xMDc3MDc4NTRdfQ==
 -->
