@@ -323,7 +323,7 @@ using RobotSim;
 
 public class RobotCommandControlRobot : RobotCommand
 {
-	public RobotPoint moveTarget;
+	public RobotPoint moveTarget; //ui
 	public RobotPoint gripTarget;
 	public Button ButtonForward;
 	public Button ButtonBack;
@@ -430,11 +430,11 @@ public class RobotCommandControlRobot : RobotCommand
 更新手臂動作程式碼
 
 ## 夾爪控制
-加入夾爪控制程式碼
+修改夾爪控制程式碼，當夾爪張開時，物體向下掉落。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MjEyOTU1NiwxMjE2NjA2MDY4LC0xMz
-M3NjU0MzU4LC0xNzAyMzE4ODUwLDMwMzM2OTY4LDIwNzc0MzA1
-MzMsLTExMTI0ODEyNDcsMTc0NDUzMDM2LC00ODgyMjcwNCwtMT
-A3NzA3ODU0XX0=
+eyJoaXN0b3J5IjpbLTEyNjA5Mzg5NzEsMTc3MjEyOTU1NiwxMj
+E2NjA2MDY4LC0xMzM3NjU0MzU4LC0xNzAyMzE4ODUwLDMwMzM2
+OTY4LDIwNzc0MzA1MzMsLTExMTI0ODEyNDcsMTc0NDUzMDM2LC
+00ODgyMjcwNCwtMTA3NzA3ODU0XX0=
 -->
