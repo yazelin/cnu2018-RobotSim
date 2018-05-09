@@ -326,14 +326,14 @@ public class RobotCommandControlRobot : RobotCommand
 	public RobotPoint moveTarget; //等待點
 	public RobotPoint gripTarget; //夾取點
 	public Button ButtonForward;  //UI向前按鈕
-	public Button ButtonBack;     //UI向前按鈕
-	public Button ButtonLeft;     //UI向按鈕
+	public Button ButtonBack;     //UI向後按鈕
+	public Button ButtonLeft;     //UI向左按鈕
 	public Button ButtonRight;    //UI向右按鈕
 	public Button ButtonOK;       //UI夾取按鈕
 
-	private float moveX = 0;//左右
-	private float moveZ = 0;//前後
-	private bool done = false;
+	private float moveX = 0;//按下左或右時移動的距離
+	private float moveZ = 0;//按下前或後時前後移動的距離
+	private bool done = false;//是否已移動完畢(手臂可以繼Ｓ開始夾取)
 	public override bool Check()
 	{
 		return true;
@@ -433,8 +433,8 @@ public class RobotCommandControlRobot : RobotCommand
 修改夾爪控制程式碼，當夾爪張開時，物體向下掉落。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNTgwNTM2MiwxNzcyMTI5NTU2LDEyMT
-Y2MDYwNjgsLTEzMzc2NTQzNTgsLTE3MDIzMTg4NTAsMzAzMzY5
-NjgsMjA3NzQzMDUzMywtMTExMjQ4MTI0NywxNzQ0NTMwMzYsLT
-Q4ODIyNzA0LC0xMDc3MDc4NTRdfQ==
+eyJoaXN0b3J5IjpbLTE5NjQ1NTc3NTYsMTc3MjEyOTU1NiwxMj
+E2NjA2MDY4LC0xMzM3NjU0MzU4LC0xNzAyMzE4ODUwLDMwMzM2
+OTY4LDIwNzc0MzA1MzMsLTExMTI0ODEyNDcsMTc0NDUzMDM2LC
+00ODgyMjcwNCwtMTA3NzA3ODU0XX0=
 -->
