@@ -289,7 +289,7 @@ public class RobotCommandGripper : RobotCommand
 ## Test 測試夾爪功能
 同學們的遊戲時間
 
-## RobotCommand 流程講解
+## 模擬手臂指令 RobotCommand 流程講解
 - Check()
 - Execute()
 - UpdateName()
@@ -451,7 +451,7 @@ public class RobotCommandControlRobot : RobotCommand
 修改夾爪控制程式碼，當夾爪張開時，物體向下掉落。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NTAyNDQ3OCw0ODM3MTc3OTgsMjAwND
+eyJoaXN0b3J5IjpbMTYxNDQwOTY2OSw0ODM3MTc3OTgsMjAwND
 gxNjIzNywtMTM0MTA4NzQwMiwxNzcyMTI5NTU2LDEyMTY2MDYw
 NjgsLTEzMzc2NTQzNTgsLTE3MDIzMTg4NTAsMzAzMzY5NjgsMj
 A3NzQzMDUzMywtMTExMjQ4MTI0NywxNzQ0NTMwMzYsLTQ4ODIy
