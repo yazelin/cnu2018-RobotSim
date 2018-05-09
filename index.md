@@ -279,7 +279,6 @@ public class RobotCommandGripper : RobotCommand
 }
 ```
 
-
 ## Test 測試夾爪功能
 同學們的遊戲時間
 
@@ -289,16 +288,7 @@ public class RobotCommandGripper : RobotCommand
 - UpdateName()
 - ExportSrc()
 - ExportDat()
-
-## 夾爪建構/動畫 Animator
-- 建模 Cube夾爪
-- 動畫 
-  - 必需要有Idle、Lock、UnLock 三組動畫
-  - Idle 當夾爪預設無動作時
-  - Lock 夾爪夾取動作
-  - UnLoad 夾爪放開動作
-  
-
+ 
 # 夾娃娃機控制
 - UI控制
 - 更新手臂動作
@@ -460,11 +450,21 @@ public class RobotCommandControlRobot : RobotCommand
 		holdingObject = null;//把手上拿著的東西丟到世界Root去
 	}
 ```
+
+## 夾爪建構/動畫 Animator
+- 建模 Cube夾爪
+- 動畫 
+  - 必需要有Idle、Lock、UnLock 三組動畫
+  - Idle 當夾爪預設無動作時
+  - Lock 夾爪夾取動作
+  - UnLoad 夾爪放開動作
+  
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODIyODM4OTAsMTE3MDY1ODQwOSwtOD
-YzMDIxMjk5LC05MTU4MzU2NzksMTYxNDQwOTY2OSw0ODM3MTc3
-OTgsMjAwNDgxNjIzNywtMTM0MTA4NzQwMiwxNzcyMTI5NTU2LD
-EyMTY2MDYwNjgsLTEzMzc2NTQzNTgsLTE3MDIzMTg4NTAsMzAz
-MzY5NjgsMjA3NzQzMDUzMywtMTExMjQ4MTI0NywxNzQ0NTMwMz
-YsLTQ4ODIyNzA0LC0xMDc3MDc4NTRdfQ==
+eyJoaXN0b3J5IjpbMTMwOTkwMjc2OCwtMTM4MjI4Mzg5MCwxMT
+cwNjU4NDA5LC04NjMwMjEyOTksLTkxNTgzNTY3OSwxNjE0NDA5
+NjY5LDQ4MzcxNzc5OCwyMDA0ODE2MjM3LC0xMzQxMDg3NDAyLD
+E3NzIxMjk1NTYsMTIxNjYwNjA2OCwtMTMzNzY1NDM1OCwtMTcw
+MjMxODg1MCwzMDMzNjk2OCwyMDc3NDMwNTMzLC0xMTEyNDgxMj
+Q3LDE3NDQ1MzAzNiwtNDg4MjI3MDQsLTEwNzcwNzg1NF19
 -->
