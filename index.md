@@ -451,17 +451,17 @@ public class RobotCommandControlRobot : RobotCommand
 	}
 ```
 
-## 夾爪建構/動畫 Animator
-- 建模 Cube夾爪
-- 動畫 
-  - 必需要有Idle、Lock、UnLock 三組動畫
-  - Idle 當夾爪預設無動作時
-  - Lock 夾爪夾取動作
-  - UnLoad 夾爪放開動作
-  
-
+## 使用物理方式夾取物件
+- 夾爪建構/動畫 Animator
+  - 建模 Cube夾爪
+  - 動畫 
+    - 必需要有Idle、Lock、UnLock 三組動畫
+    - Idle 當夾爪預設無動作時
+    - Lock 夾爪夾取動作
+    - UnLoad 夾爪放開動作
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwOTkwMjc2OCwtMTM4MjI4Mzg5MCwxMT
+eyJoaXN0b3J5IjpbMTA5NjkzMzYyMSwtMTM4MjI4Mzg5MCwxMT
 cwNjU4NDA5LC04NjMwMjEyOTksLTkxNTgzNTY3OSwxNjE0NDA5
 NjY5LDQ4MzcxNzc5OCwyMDA0ODE2MjM3LC0xMzQxMDg3NDAyLD
 E3NzIxMjk1NTYsMTIxNjYwNjA2OCwtMTMzNzY1NDM1OCwtMTcw
