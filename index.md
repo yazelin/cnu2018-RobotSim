@@ -310,7 +310,73 @@ public class RobotCommandGripper : RobotCommand
 ![Image](./img/UIHierarchy.jpg)
 - 加入UI
 - 對應程式碼
+##
 ```cs
+using UnityEngine;
+using UnityEngine.UI;
+using RobotSim;
+
+public class RobotCommandControlRobot : RobotCommand
+{
+	public RobotPoint moveTarget;
+	public RobotPoint gripTarget;
+	public Button ButtonForward;
+	public Button ButtonBack;
+	public Button ButtonLeft;
+	public Button ButtonRight;
+	public Button ButtonOK;
+
+	private float moveX = 0;//左右
+	private float moveZ = 0;//前後
+	private bool done = false;
+	public override bool Check()
+	{
+		return true;
+	}
+
+	public override int Execute()
+	{
+		Vector3 updatePosition = moveTarget.transform.position;//原本的預備點
+
+		updatePosition.x += moveX;
+		updatePosition.z += moveZ;
+		moveX = 0;
+		moveZ = 0;
+		moveTarget.transform.position = updatePosition;//更新預備點
+
+		updatePosition.y = gripTarget.transform.position.y;//原本的夾取點的高度
+		gripTarget.transform.position = updatePosition;//更新夾取點
+
+		robot.Inverse(moveTarget.transform);//手臂動作更新
+
+
+		if (done)
+		{
+			done = false;
+			return (line + 1);
+		}
+		else
+		{
+			return line;
+		}
+	}
+
+	public override string ExportDat()
+	{
+		return "";
+	}
+
+	public override string ExportSrc()
+	{
+		return "";
+	}
+
+	public override string UpdateName()
+	{
+		return (gameObject.name = "Move(" + moveTarget.name + "," + gripTarget.name + ")");
+	}
+
+	// Use this for initialization
 	void Start()
 	{
 		ButtonForward.onClick.AddListener(
@@ -340,6 +406,14 @@ public class RobotCommandGripper : RobotCommand
 				done = true;
 			});
 	}
+
+	// Update is called once per frame
+	void Update()
+	{
+
+	}
+}
+
 ```
 ## 更新手臂動作
 更新手臂動作程式碼
@@ -348,7 +422,7 @@ public class RobotCommandGripper : RobotCommand
 加入夾爪控制程式碼
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NjEzNzMzOCwtMTcwMjMxODg1MCwzMD
-MzNjk2OCwyMDc3NDMwNTMzLC0xMTEyNDgxMjQ3LDE3NDQ1MzAz
-NiwtNDg4MjI3MDQsLTEwNzcwNzg1NF19
+eyJoaXN0b3J5IjpbLTE1MjA2NjgwOTEsLTE3MDIzMTg4NTAsMz
+AzMzY5NjgsMjA3NzQzMDUzMywtMTExMjQ4MTI0NywxNzQ0NTMw
+MzYsLTQ4ODIyNzA0LC0xMDc3MDc4NTRdfQ==
 -->
