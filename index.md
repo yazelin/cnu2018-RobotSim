@@ -306,6 +306,8 @@ public class RobotCommandGripper : RobotCommand
 > ![Image](./img/ClawMachine.gif)
 
 ## UI控制
+![Image](./img/UI.jpg)
+![Image](./img/UIHierarchy.jpg)
 - 加入UI
 - 對應程式碼
 
@@ -316,7 +318,7 @@ public class RobotCommandGripper : RobotCommand
 加入夾爪控制程式碼
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDIzMTg4NTAsMzAzMzY5NjgsMjA3Nz
-QzMDUzMywtMTExMjQ4MTI0NywxNzQ0NTMwMzYsLTQ4ODIyNzA0
-LC0xMDc3MDc4NTRdfQ==
+eyJoaXN0b3J5IjpbLTY2NDcxOTk0NSwtMTcwMjMxODg1MCwzMD
+MzNjk2OCwyMDc3NDMwNTMzLC0xMTEyNDgxMjQ3LDE3NDQ1MzAz
+NiwtNDg4MjI3MDQsLTEwNzcwNzg1NF19
 -->
