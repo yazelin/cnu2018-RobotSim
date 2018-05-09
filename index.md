@@ -57,9 +57,7 @@
 	- 座標系
 		- WORLD
 		- BASE
-		- TOOL
-		- ![Image](./img/Tool.jpg)
-    
+		- TOOL    
 	- 操作方式
 		- XYZ ABC
 		- AXIS
@@ -70,13 +68,15 @@
 		- CIRC(網頁版的模擬器中沒有) 
 
 	- 軸極限  
-		- ![Image](./img/RobotAxis.jpg)
 		- A1~A6
 
 	- 手臂程式執行方式
 		- 先教點
 		- 用指令讓手臂重現動作 
-
+## TOOL
+ ![Image](./img/Tool.jpg)
+## A1~A6
+![Image](./img/RobotAxis.jpg)
     
 - 實際上機器手臂的硬體有這幾個部份 
 	1. 機器手臂 
@@ -451,7 +451,7 @@ public class RobotCommandControlRobot : RobotCommand
 修改夾爪控制程式碼，當夾爪張開時，物體向下掉落。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA0OTQwMzU4LDE2MTQ0MDk2NjksNDgzNz
+eyJoaXN0b3J5IjpbODk4NzA1NjMxLDE2MTQ0MDk2NjksNDgzNz
 E3Nzk4LDIwMDQ4MTYyMzcsLTEzNDEwODc0MDIsMTc3MjEyOTU1
 NiwxMjE2NjA2MDY4LC0xMzM3NjU0MzU4LC0xNzAyMzE4ODUwLD
 MwMzM2OTY4LDIwNzc0MzA1MzMsLTExMTI0ODEyNDcsMTc0NDUz
