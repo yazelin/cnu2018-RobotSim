@@ -337,10 +337,20 @@ public class RobotCommandControlRobot : RobotCommand
 	
 	public override bool Check()
 	{
-		
+		if (moveTarget == null)
+		{
+			errorMassage = "未設定等待點";
+			return false;
+		}
+		if (gripTarget == null)
+		{
+			errorMassage = "未設定夾取點";
+			return false;
+		}	
 		return true;
 	}
 
+	//當手臂程式執行時，在Unity
 	public override int Execute()
 	{
 		Vector3 updatePosition = moveTarget.transform.position;
@@ -435,8 +445,8 @@ public class RobotCommandControlRobot : RobotCommand
 修改夾爪控制程式碼，當夾爪張開時，物體向下掉落。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDEwODc0MDIsMTc3MjEyOTU1NiwxMj
-E2NjA2MDY4LC0xMzM3NjU0MzU4LC0xNzAyMzE4ODUwLDMwMzM2
-OTY4LDIwNzc0MzA1MzMsLTExMTI0ODEyNDcsMTc0NDUzMDM2LC
-00ODgyMjcwNCwtMTA3NzA3ODU0XX0=
+eyJoaXN0b3J5IjpbLTE0OTU1NTU3NjgsLTEzNDEwODc0MDIsMT
+c3MjEyOTU1NiwxMjE2NjA2MDY4LC0xMzM3NjU0MzU4LC0xNzAy
+MzE4ODUwLDMwMzM2OTY4LDIwNzc0MzA1MzMsLTExMTI0ODEyND
+csMTc0NDUzMDM2LC00ODgyMjcwNCwtMTA3NzA3ODU0XX0=
 -->
