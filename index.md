@@ -61,20 +61,19 @@
 	- 操作方式
 		- XYZ ABC
 		- AXIS
-
 	- 運動指令
 		- PTP
 		- LIN
 		- CIRC(網頁版的模擬器中沒有) 
-
 	- 軸極限  
 		- A1~A6
-
 	- 手臂程式執行方式
 		- 先教點
 		- 用指令讓手臂重現動作 
+
 ## TOOL
  ![Image](./img/Tool.jpg)
+ 
 ## A1~A6
 ![Image](./img/RobotAxis.jpg)
     
@@ -451,9 +450,9 @@ public class RobotCommandControlRobot : RobotCommand
 修改夾爪控制程式碼，當夾爪張開時，物體向下掉落。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4NzA1NjMxLDE2MTQ0MDk2NjksNDgzNz
-E3Nzk4LDIwMDQ4MTYyMzcsLTEzNDEwODc0MDIsMTc3MjEyOTU1
-NiwxMjE2NjA2MDY4LC0xMzM3NjU0MzU4LC0xNzAyMzE4ODUwLD
-MwMzM2OTY4LDIwNzc0MzA1MzMsLTExMTI0ODEyNDcsMTc0NDUz
-MDM2LC00ODgyMjcwNCwtMTA3NzA3ODU0XX0=
+eyJoaXN0b3J5IjpbLTkxNTgzNTY3OSwxNjE0NDA5NjY5LDQ4Mz
+cxNzc5OCwyMDA0ODE2MjM3LC0xMzQxMDg3NDAyLDE3NzIxMjk1
+NTYsMTIxNjYwNjA2OCwtMTMzNzY1NDM1OCwtMTcwMjMxODg1MC
+wzMDMzNjk2OCwyMDc3NDMwNTMzLC0xMTEyNDgxMjQ3LDE3NDQ1
+MzAzNiwtNDg4MjI3MDQsLTEwNzcwNzg1NF19
 -->
