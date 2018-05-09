@@ -52,7 +52,7 @@
 
 ## 同學們的遊戲時間
 大家邊玩邊我們邊了解一些機器手臂的運作及相關背景知識 
-![Image](./img/RobotCoordinateSystem.jpg)
+  ![Image](./img/RobotCoordinateSystem.jpg)
 - 在模擬器中我們可以學到這些
 	- 座標系
 		- WORLD
@@ -448,7 +448,7 @@ public class RobotCommandControlRobot : RobotCommand
 修改夾爪控制程式碼，當夾爪張開時，物體向下掉落。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNTcwNzU1MCwtOTE1ODM1Njc5LDE2MT
+eyJoaXN0b3J5IjpbMTM0NDUwMTU5OCwtOTE1ODM1Njc5LDE2MT
 Q0MDk2NjksNDgzNzE3Nzk4LDIwMDQ4MTYyMzcsLTEzNDEwODc0
 MDIsMTc3MjEyOTU1NiwxMjE2NjA2MDY4LC0xMzM3NjU0MzU4LC
 0xNzAyMzE4ODUwLDMwMzM2OTY4LDIwNzc0MzA1MzMsLTExMTI0
