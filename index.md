@@ -52,7 +52,7 @@
 
 ## 同學們的遊戲時間
 大家邊玩邊我們邊了解一些機器手臂的運作及相關背景知識 
-  ![Image](./img/RobotCoordinateSystem.jpg)
+![Image](./img/RobotCoordinateSystem.jpg)
 - 在模擬器中我們可以學到這些
 	- 座標系
 		- WORLD
@@ -72,10 +72,10 @@
 		- 用指令讓手臂重現動作 
 
 ## TOOL
-  ![Image](./img/Tool.jpg)
+![Image](./img/Tool.jpg)
  
 ## A1~A6
-  ![Image](./img/RobotAxis.jpg)
+![Image](./img/RobotAxis.jpg)
     
 - 實際上機器手臂的硬體有這幾個部份 
 	1. 機器手臂 
@@ -83,7 +83,7 @@
 	1. 機器手臂教導盒 
 	1. 連接線
 
-	![Image](./img/RobotSystem.jpg)
+![Image](./img/RobotSystem.jpg)
 
 ## 探索新世界-RobotSim
 想看看在Unity內可以怎麼玩機器手臂嗎?  
@@ -445,10 +445,10 @@ public class RobotCommandControlRobot : RobotCommand
 修改夾爪控制程式碼，當夾爪張開時，物體向下掉落。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjc1OTg0MjcsLTkxNTgzNTY3OSwxNj
-E0NDA5NjY5LDQ4MzcxNzc5OCwyMDA0ODE2MjM3LC0xMzQxMDg3
-NDAyLDE3NzIxMjk1NTYsMTIxNjYwNjA2OCwtMTMzNzY1NDM1OC
-wtMTcwMjMxODg1MCwzMDMzNjk2OCwyMDc3NDMwNTMzLC0xMTEy
-NDgxMjQ3LDE3NDQ1MzAzNiwtNDg4MjI3MDQsLTEwNzcwNzg1NF
-19
+eyJoaXN0b3J5IjpbLTg2MzAyMTI5OSwtOTE1ODM1Njc5LDE2MT
+Q0MDk2NjksNDgzNzE3Nzk4LDIwMDQ4MTYyMzcsLTEzNDEwODc0
+MDIsMTc3MjEyOTU1NiwxMjE2NjA2MDY4LC0xMzM3NjU0MzU4LC
+0xNzAyMzE4ODUwLDMwMzM2OTY4LDIwNzc0MzA1MzMsLTExMTI0
+ODEyNDcsMTc0NDUzMDM2LC00ODgyMjcwNCwtMTA3NzA3ODU0XX
+0=
 -->
