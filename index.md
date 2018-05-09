@@ -72,17 +72,17 @@
 		- 用指令讓手臂重現動作 
 
 ## TOOL
- ![Image](./img/Tool.jpg)
+  ![Image](./img/Tool.jpg)
  
 ## A1~A6
-![Image](./img/RobotAxis.jpg)
+  ![Image](./img/RobotAxis.jpg)
     
 - 實際上機器手臂的硬體有這幾個部份 
 	1. 機器手臂 
-	1. 機器手臂控制器 
-	1. 機器手臂教導盒 
-	1. 連接線
-	
+	2. 機器手臂控制器 
+	3. 機器手臂教導盒 
+	4. 連接線
+	5. 
 	![Image](./img/RobotSystem.jpg)
 
 ## 探索新世界-RobotSim
@@ -448,7 +448,7 @@ public class RobotCommandControlRobot : RobotCommand
 修改夾爪控制程式碼，當夾爪張開時，物體向下掉落。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwODQ3MjQ0MywtOTE1ODM1Njc5LDE2MT
+eyJoaXN0b3J5IjpbMTAzNTcwNzU1MCwtOTE1ODM1Njc5LDE2MT
 Q0MDk2NjksNDgzNzE3Nzk4LDIwMDQ4MTYyMzcsLTEzNDEwODc0
 MDIsMTc3MjEyOTU1NiwxMjE2NjA2MDY4LC0xMzM3NjU0MzU4LC
 0xNzAyMzE4ODUwLDMwMzM2OTY4LDIwNzc0MzA1MzMsLTExMTI0
