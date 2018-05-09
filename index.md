@@ -458,9 +458,9 @@ public class RobotCommandControlRobot : RobotCommand
   - Idle 當夾爪預設無動作時
   - Lock 夾爪夾取動作
   - UnLoad 夾爪放開動作
-- 修改被夾物件的
+- 修改被夾物件Collider IsTrigger 為 False
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjE0ODA4MjksLTEzODIyODM4OTAsMT
+eyJoaXN0b3J5IjpbLTE1MTQ5MDMwMjYsLTEzODIyODM4OTAsMT
 E3MDY1ODQwOSwtODYzMDIxMjk5LC05MTU4MzU2NzksMTYxNDQw
 OTY2OSw0ODM3MTc3OTgsMjAwNDgxNjIzNywtMTM0MTA4NzQwMi
 wxNzcyMTI5NTU2LDEyMTY2MDYwNjgsLTEzMzc2NTQzNTgsLTE3
