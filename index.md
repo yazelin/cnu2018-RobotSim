@@ -333,9 +333,11 @@ public class RobotCommandControlRobot : RobotCommand
 
 	private float moveX = 0;//按下左或右時移動的距離
 	private float moveZ = 0;//按下前或後時前後移動的距離
-	private bool done = false;//是否已移動完畢(手臂可以繼Ｓ開始夾取)
+	private bool done = false;//是否已移動完畢(手臂可以繼續動作向下夾取)
+	
 	public override bool Check()
 	{
+		
 		return true;
 	}
 
@@ -433,7 +435,7 @@ public class RobotCommandControlRobot : RobotCommand
 修改夾爪控制程式碼，當夾爪張開時，物體向下掉落。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjQ1NTc3NTYsMTc3MjEyOTU1NiwxMj
+eyJoaXN0b3J5IjpbLTEzNDEwODc0MDIsMTc3MjEyOTU1NiwxMj
 E2NjA2MDY4LC0xMzM3NjU0MzU4LC0xNzAyMzE4ODUwLDMwMzM2
 OTY4LDIwNzc0MzA1MzMsLTExMTI0ODEyNDcsMTc0NDUzMDM2LC
 00ODgyMjcwNCwtMTA3NzA3ODU0XX0=
