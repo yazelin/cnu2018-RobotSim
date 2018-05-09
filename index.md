@@ -289,6 +289,9 @@ public class RobotCommandGripper : RobotCommand
 ## Test 測試夾爪功能
 同學們的遊戲時間
 
+## RobotCommand 流程講解
+
+
 ## 夾爪建構/動畫 Animator
 - 建模 Cube夾爪
 - 動畫 
@@ -444,8 +447,9 @@ public class RobotCommandControlRobot : RobotCommand
 修改夾爪控制程式碼，當夾爪張開時，物體向下掉落。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNDgxNjIzNywtMTM0MTA4NzQwMiwxNz
-cyMTI5NTU2LDEyMTY2MDYwNjgsLTEzMzc2NTQzNTgsLTE3MDIz
-MTg4NTAsMzAzMzY5NjgsMjA3NzQzMDUzMywtMTExMjQ4MTI0Ny
-wxNzQ0NTMwMzYsLTQ4ODIyNzA0LC0xMDc3MDc4NTRdfQ==
+eyJoaXN0b3J5IjpbNDgzNzE3Nzk4LDIwMDQ4MTYyMzcsLTEzND
+EwODc0MDIsMTc3MjEyOTU1NiwxMjE2NjA2MDY4LC0xMzM3NjU0
+MzU4LC0xNzAyMzE4ODUwLDMwMzM2OTY4LDIwNzc0MzA1MzMsLT
+ExMTI0ODEyNDcsMTc0NDUzMDM2LC00ODgyMjcwNCwtMTA3NzA3
+ODU0XX0=
 -->
