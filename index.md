@@ -314,6 +314,7 @@ public class RobotCommandGripper : RobotCommand
 ## UI控制手臂程式碼 RobotCommandControlRobot
 
 ```cs
+//RobotCommandControlRobot.cs
 using UnityEngine;
 using UnityEngine.UI;
 using RobotSim;
@@ -430,8 +431,8 @@ public class RobotCommandControlRobot : RobotCommand
 加入夾爪控制程式碼
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU3MzI5NjM0LDEyMTY2MDYwNjgsLTEzMz
-c2NTQzNTgsLTE3MDIzMTg4NTAsMzAzMzY5NjgsMjA3NzQzMDUz
-MywtMTExMjQ4MTI0NywxNzQ0NTMwMzYsLTQ4ODIyNzA0LC0xMD
-c3MDc4NTRdfQ==
+eyJoaXN0b3J5IjpbLTE3NTQ0NDYzMjAsMTIxNjYwNjA2OCwtMT
+MzNzY1NDM1OCwtMTcwMjMxODg1MCwzMDMzNjk2OCwyMDc3NDMw
+NTMzLC0xMTEyNDgxMjQ3LDE3NDQ1MzAzNiwtNDg4MjI3MDQsLT
+EwNzcwNzg1NF19
 -->
