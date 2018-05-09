@@ -403,34 +403,34 @@ public class RobotCommandControlRobot : RobotCommand
 		return (gameObject.name = "Move(" + moveTarget.name + "," + gripTarget.name + ")");
 	}
 
-	//初始化 設定UI按鈕按下時Ｈ設定數值變更
+	//初始化 設定UI按鈕按下時移動數值變更
 	void Start()
 	{
 		ButtonForward.onClick.AddListener(
 			delegate
 			{
-				moveZ = 0.01f;
+				moveZ = 0.01f;//向前移動1公分
 			});
 		ButtonBack.onClick.AddListener(
 			delegate
 			{
-				moveZ = -0.01f;
+				moveZ = -0.01f;//向後移動1公分
 			});
 		ButtonLeft.onClick.AddListener(
 			delegate
 			{
-				moveX = -0.01f;
+				moveX = -0.01f;//向左移動1公分
 			});
 		ButtonRight.onClick.AddListener(
 			delegate
 			{
-				moveX = 0.01f;
+				moveX = 0.01f;//向右移動1公分
 			});
 
 		ButtonOK.onClick.AddListener(
 			delegate
 			{
-				done = true;
+				done = true;//動作完成，開始夾
 			});
 	}
 	
@@ -444,8 +444,8 @@ public class RobotCommandControlRobot : RobotCommand
 修改夾爪控制程式碼，當夾爪張開時，物體向下掉落。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEwOTc1NzIxLC0xMzQxMDg3NDAyLDE3Nz
-IxMjk1NTYsMTIxNjYwNjA2OCwtMTMzNzY1NDM1OCwtMTcwMjMx
-ODg1MCwzMDMzNjk2OCwyMDc3NDMwNTMzLC0xMTEyNDgxMjQ3LD
-E3NDQ1MzAzNiwtNDg4MjI3MDQsLTEwNzcwNzg1NF19
+eyJoaXN0b3J5IjpbLTYzNTI1NzYxOSwtMTM0MTA4NzQwMiwxNz
+cyMTI5NTU2LDEyMTY2MDYwNjgsLTEzMzc2NTQzNTgsLTE3MDIz
+MTg4NTAsMzAzMzY5NjgsMjA3NzQzMDUzMywtMTExMjQ4MTI0Ny
+wxNzQ0NTMwMzYsLTQ4ODIyNzA0LC0xMDc3MDc4NTRdfQ==
 -->
