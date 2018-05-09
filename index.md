@@ -310,7 +310,7 @@ public class RobotCommandGripper : RobotCommand
 ![Image](./img/UIHierarchy.jpg)
 - 加入UI
 - 對應程式碼
-##
+## UI控制手臂程式碼 RobotCommandControlRobot
 ```cs
 using UnityEngine;
 using UnityEngine.UI;
@@ -422,7 +422,7 @@ public class RobotCommandControlRobot : RobotCommand
 加入夾爪控制程式碼
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjA2NjgwOTEsLTE3MDIzMTg4NTAsMz
-AzMzY5NjgsMjA3NzQzMDUzMywtMTExMjQ4MTI0NywxNzQ0NTMw
-MzYsLTQ4ODIyNzA0LC0xMDc3MDc4NTRdfQ==
+eyJoaXN0b3J5IjpbLTIyMzgyMzMwMywtMTcwMjMxODg1MCwzMD
+MzNjk2OCwyMDc3NDMwNTMzLC0xMTEyNDgxMjQ3LDE3NDQ1MzAz
+NiwtNDg4MjI3MDQsLTEwNzcwNzg1NF19
 -->
