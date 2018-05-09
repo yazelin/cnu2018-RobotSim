@@ -79,10 +79,10 @@
     
 - 實際上機器手臂的硬體有這幾個部份 
 	1. 機器手臂 
-	2. 機器手臂控制器 
-	3. 機器手臂教導盒 
-	4. 連接線
-	5. 
+	1. 機器手臂控制器 
+	1. 機器手臂教導盒 
+	1. 連接線
+
 	![Image](./img/RobotSystem.jpg)
 
 ## 探索新世界-RobotSim
@@ -445,7 +445,7 @@ public class RobotCommandControlRobot : RobotCommand
 修改夾爪控制程式碼，當夾爪張開時，物體向下掉落。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODQ4ODc3MjQsLTkxNTgzNTY3OSwxNj
+eyJoaXN0b3J5IjpbLTE3Mjc1OTg0MjcsLTkxNTgzNTY3OSwxNj
 E0NDA5NjY5LDQ4MzcxNzc5OCwyMDA0ODE2MjM3LC0xMzQxMDg3
 NDAyLDE3NzIxMjk1NTYsMTIxNjYwNjA2OCwtMTMzNzY1NDM1OC
 wtMTcwMjMxODg1MCwzMDMzNjk2OCwyMDc3NDMwNTMzLC0xMTEy
