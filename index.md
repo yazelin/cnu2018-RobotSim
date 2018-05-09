@@ -310,7 +310,37 @@ public class RobotCommandGripper : RobotCommand
 ![Image](./img/UIHierarchy.jpg)
 - 加入UI
 - 對應程式碼
+```cs
+	void Start()
+	{
+		ButtonForward.onClick.AddListener(
+			delegate
+			{
+				moveZ = 0.01f;
+			});
+		ButtonBack.onClick.AddListener(
+			delegate
+			{
+				moveZ = -0.01f;
+			});
+		ButtonLeft.onClick.AddListener(
+			delegate
+			{
+				moveX = -0.01f;
+			});
+		ButtonRight.onClick.AddListener(
+			delegate
+			{
+				moveX = 0.01f;
+			});
 
+		ButtonOK.onClick.AddListener(
+			delegate
+			{
+				done = true;
+			});
+	}
+```
 ## 更新手臂動作
 更新手臂動作程式碼
 
@@ -318,7 +348,7 @@ public class RobotCommandGripper : RobotCommand
 加入夾爪控制程式碼
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NDcxOTk0NSwtMTcwMjMxODg1MCwzMD
+eyJoaXN0b3J5IjpbLTc3NjEzNzMzOCwtMTcwMjMxODg1MCwzMD
 MzNjk2OCwyMDc3NDMwNTMzLC0xMTEyNDgxMjQ3LDE3NDQ1MzAz
 NiwtNDg4MjI3MDQsLTEwNzcwNzg1NF19
 -->
