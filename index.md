@@ -205,6 +205,7 @@ public class Gripper : MonoBehaviour
 ```
 
 ## 手臂指令程式 RobotCommandGripper
+
 ```cs
 //RobotCommandGripper.cs
 using UnityEngine;
@@ -429,7 +430,8 @@ public class RobotCommandControlRobot : RobotCommand
 加入夾爪控制程式碼
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNjYwNjA2OCwtMTMzNzY1NDM1OCwtMT
-cwMjMxODg1MCwzMDMzNjk2OCwyMDc3NDMwNTMzLC0xMTEyNDgx
-MjQ3LDE3NDQ1MzAzNiwtNDg4MjI3MDQsLTEwNzcwNzg1NF19
+eyJoaXN0b3J5IjpbNjU3MzI5NjM0LDEyMTY2MDYwNjgsLTEzMz
+c2NTQzNTgsLTE3MDIzMTg4NTAsMzAzMzY5NjgsMjA3NzQzMDUz
+MywtMTExMjQ4MTI0NywxNzQ0NTMwMzYsLTQ4ODIyNzA0LC0xMD
+c3MDc4NTRdfQ==
 -->
