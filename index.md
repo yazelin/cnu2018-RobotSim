@@ -385,17 +385,19 @@ public class RobotCommandControlRobot : RobotCommand
 		}
 	}
 	
-	//當選擇匯出程式時會執行此ExportDat()，將回傳的
+	//當選擇匯出程式時會執行此ExportDat()，將回傳的值寫進手臂程式原始src檔中
 	public override string ExportDat()
 	{
 		return "";
 	}
 
+	//當選擇匯出程式時會執行此ExportSrc()，將回傳的值寫進手臂程式原始dat檔中
 	public override string ExportSrc()
 	{
 		return "";
 	}
 
+	//更新在階層列表上的ＺＦＬ物件名稱
 	public override string UpdateName()
 	{
 		return (gameObject.name = "Move(" + moveTarget.name + "," + gripTarget.name + ")");
@@ -447,8 +449,8 @@ public class RobotCommandControlRobot : RobotCommand
 修改夾爪控制程式碼，當夾爪張開時，物體向下掉落。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgzMzc5NDYyLC0xMzQxMDg3NDAyLDE3Nz
-IxMjk1NTYsMTIxNjYwNjA2OCwtMTMzNzY1NDM1OCwtMTcwMjMx
-ODg1MCwzMDMzNjk2OCwyMDc3NDMwNTMzLC0xMTEyNDgxMjQ3LD
-E3NDQ1MzAzNiwtNDg4MjI3MDQsLTEwNzcwNzg1NF19
+eyJoaXN0b3J5IjpbLTE5MDkxNjcyMTIsLTEzNDEwODc0MDIsMT
+c3MjEyOTU1NiwxMjE2NjA2MDY4LC0xMzM3NjU0MzU4LC0xNzAy
+MzE4ODUwLDMwMzM2OTY4LDIwNzc0MzA1MzMsLTExMTI0ODEyND
+csMTc0NDUzMDM2LC00ODgyMjcwNCwtMTA3NzA3ODU0XX0=
 -->
