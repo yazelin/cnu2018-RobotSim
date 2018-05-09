@@ -365,10 +365,10 @@ public class RobotCommandControlRobot : RobotCommand
 		//將變更套用至預備點
 
 		updatePosition.y = gripTarget.transform.position.y;
-		//原本的夾取點的高度
+		//更新夾取點的高度值
 		
 		gripTarget.transform.position = updatePosition;
-		//更新夾取點
+		//將變更套用至夾取點
 
 		robot.Inverse(moveTarget.transform);
 		//手臂動作更新
@@ -384,7 +384,8 @@ public class RobotCommandControlRobot : RobotCommand
 			return line;
 		}
 	}
-
+	
+	//當選擇匯出程式時會執行此ExportDat()，將回傳的
 	public override string ExportDat()
 	{
 		return "";
@@ -446,8 +447,8 @@ public class RobotCommandControlRobot : RobotCommand
 修改夾爪控制程式碼，當夾爪張開時，物體向下掉落。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTg1NjQ5MzAsLTEzNDEwODc0MDIsMT
-c3MjEyOTU1NiwxMjE2NjA2MDY4LC0xMzM3NjU0MzU4LC0xNzAy
-MzE4ODUwLDMwMzM2OTY4LDIwNzc0MzA1MzMsLTExMTI0ODEyND
-csMTc0NDUzMDM2LC00ODgyMjcwNCwtMTA3NzA3ODU0XX0=
+eyJoaXN0b3J5IjpbMjgzMzc5NDYyLC0xMzQxMDg3NDAyLDE3Nz
+IxMjk1NTYsMTIxNjYwNjA2OCwtMTMzNzY1NDM1OCwtMTcwMjMx
+ODg1MCwzMDMzNjk2OCwyMDc3NDMwNTMzLC0xMTEyNDgxMjQ3LD
+E3NDQ1MzAzNiwtNDg4MjI3MDQsLTEwNzcwNzg1NF19
 -->
