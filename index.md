@@ -336,19 +336,24 @@ public class RobotCommandControlRobot : RobotCommand
 
 	public override int Execute()
 	{
-		Vector3 updatePosition = moveTarget.transform.position;//原本的預備點
+		Vector3 updatePosition = moveTarget.transform.position;
+		//原本的預備點
 
 		updatePosition.x += moveX;
 		updatePosition.z += moveZ;
 		moveX = 0;
 		moveZ = 0;
-		moveTarget.transform.position = updatePosition;//更新預備點
+		moveTarget.transform.position = updatePosition;
+		//更新預備點
 
-		updatePosition.y = gripTarget.transform.position.y;//原本的夾取點的高度
-		gripTarget.transform.position = updatePosition;//更新夾取點
+		updatePosition.y = gripTarget.transform.position.y;
+		//原本的夾取點的高度
+		
+		gripTarget.transform.position = updatePosition;
+		//更新夾取點
 
-		robot.Inverse(moveTarget.transform);//手臂動作更新
-
+		robot.Inverse(moveTarget.transform);
+		//手臂動作更新
 
 		if (done)
 		{
@@ -422,7 +427,7 @@ public class RobotCommandControlRobot : RobotCommand
 加入夾爪控制程式碼
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMzgyMzMwMywtMTcwMjMxODg1MCwzMD
+eyJoaXN0b3J5IjpbLTgzMjc0MTA4MSwtMTcwMjMxODg1MCwzMD
 MzNjk2OCwyMDc3NDMwNTMzLC0xMTEyNDgxMjQ3LDE3NDQ1MzAz
 NiwtNDg4MjI3MDQsLTEwNzcwNzg1NF19
 -->
