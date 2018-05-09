@@ -356,12 +356,13 @@ public class RobotCommandControlRobot : RobotCommand
 		Vector3 updatePosition = moveTarget.transform.position;
 		//原本的預備點
 
-		updatePosition.x += moveX;
-		updatePosition.z += moveZ;
+		updatePosition.x += moveX;//更新左右位置
+		updatePosition.z += moveZ;//更新前後位置
 		moveX = 0;
 		moveZ = 0;
+		
 		moveTarget.transform.position = updatePosition;
-		//更新預備點
+		//將變更套用至預備點
 
 		updatePosition.y = gripTarget.transform.position.y;
 		//原本的夾取點的高度
@@ -445,8 +446,8 @@ public class RobotCommandControlRobot : RobotCommand
 修改夾爪控制程式碼，當夾爪張開時，物體向下掉落。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MDkyODA1MywtMTM0MTA4NzQwMiwxNz
-cyMTI5NTU2LDEyMTY2MDYwNjgsLTEzMzc2NTQzNTgsLTE3MDIz
-MTg4NTAsMzAzMzY5NjgsMjA3NzQzMDUzMywtMTExMjQ4MTI0Ny
-wxNzQ0NTMwMzYsLTQ4ODIyNzA0LC0xMDc3MDc4NTRdfQ==
+eyJoaXN0b3J5IjpbLTEwMTg1NjQ5MzAsLTEzNDEwODc0MDIsMT
+c3MjEyOTU1NiwxMjE2NjA2MDY4LC0xMzM3NjU0MzU4LC0xNzAy
+MzE4ODUwLDMwMzM2OTY4LDIwNzc0MzA1MzMsLTExMTI0ODEyND
+csMTc0NDUzMDM2LC00ODgyMjcwNCwtMTA3NzA3ODU0XX0=
 -->
