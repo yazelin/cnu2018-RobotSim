@@ -85,8 +85,6 @@
 	
 	![Image](./img/RobotSystem.jpg)
 
-
-
 ## 探索新世界-RobotSim
 想看看在Unity內可以怎麼玩機器手臂嗎?  
 Unit還有這種使用方式(之二)?! 只有想不到，沒有做不到。
@@ -450,9 +448,10 @@ public class RobotCommandControlRobot : RobotCommand
 修改夾爪控制程式碼，當夾爪張開時，物體向下掉落。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTgzNTY3OSwxNjE0NDA5NjY5LDQ4Mz
-cxNzc5OCwyMDA0ODE2MjM3LC0xMzQxMDg3NDAyLDE3NzIxMjk1
-NTYsMTIxNjYwNjA2OCwtMTMzNzY1NDM1OCwtMTcwMjMxODg1MC
-wzMDMzNjk2OCwyMDc3NDMwNTMzLC0xMTEyNDgxMjQ3LDE3NDQ1
-MzAzNiwtNDg4MjI3MDQsLTEwNzcwNzg1NF19
+eyJoaXN0b3J5IjpbLTYwODQ3MjQ0MywtOTE1ODM1Njc5LDE2MT
+Q0MDk2NjksNDgzNzE3Nzk4LDIwMDQ4MTYyMzcsLTEzNDEwODc0
+MDIsMTc3MjEyOTU1NiwxMjE2NjA2MDY4LC0xMzM3NjU0MzU4LC
+0xNzAyMzE4ODUwLDMwMzM2OTY4LDIwNzc0MzA1MzMsLTExMTI0
+ODEyNDcsMTc0NDUzMDM2LC00ODgyMjcwNCwtMTA3NzA3ODU0XX
+0=
 -->
