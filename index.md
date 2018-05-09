@@ -443,8 +443,25 @@ public class RobotCommandControlRobot : RobotCommand
 ## 夾爪控制
 修改夾爪控制程式碼，當夾爪張開時，物體向下掉落。
 
+```cs
+//Gripper.cs
+	//放開夾取物件
+	public void UnlockToWorld()
+	{
+		if (holdingObject)
+		{
+			holdingObject.parent = null;
+			//若物件上有剛體則開啟重力(讓物體隨重力掉落)
+			if (holdingObject.GetComponent<Rigidbody>())
+			{
+				holdingObject.GetComponent<Rigidbody>().useGravity = true;
+			}
+		}
+		holdingObject = null;//把手上拿著的東西丟到世界Root去
+	}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjUzMDI5NTIsMTE3MDY1ODQwOSwtOD
+eyJoaXN0b3J5IjpbLTEzODIyODM4OTAsMTE3MDY1ODQwOSwtOD
 YzMDIxMjk5LC05MTU4MzU2NzksMTYxNDQwOTY2OSw0ODM3MTc3
 OTgsMjAwNDgxNjIzNywtMTM0MTA4NzQwMiwxNzcyMTI5NTU2LD
 EyMTY2MDYwNjgsLTEzMzc2NTQzNTgsLTE3MDIzMTg4NTAsMzAz
