@@ -316,7 +316,7 @@ public class RobotCommandGripper : RobotCommand
 ![Image](./img/UIHierarchy.jpg)
 
 
-## UI控制手臂程式碼 RobotCommandControlRobot
+- UI控制手臂程式碼 RobotCommandControlRobot
 
 ```cs
 //RobotCommandControlRobot.cs
@@ -440,17 +440,14 @@ public class RobotCommandControlRobot : RobotCommand
 }
 ```
 
-## 更新手臂動作
-更新手臂動作程式碼
-
 ## 夾爪控制
 修改夾爪控制程式碼，當夾爪張開時，物體向下掉落。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDY1ODQwOSwtODYzMDIxMjk5LC05MT
-U4MzU2NzksMTYxNDQwOTY2OSw0ODM3MTc3OTgsMjAwNDgxNjIz
-NywtMTM0MTA4NzQwMiwxNzcyMTI5NTU2LDEyMTY2MDYwNjgsLT
-EzMzc2NTQzNTgsLTE3MDIzMTg4NTAsMzAzMzY5NjgsMjA3NzQz
-MDUzMywtMTExMjQ4MTI0NywxNzQ0NTMwMzYsLTQ4ODIyNzA0LC
-0xMDc3MDc4NTRdfQ==
+eyJoaXN0b3J5IjpbLTE5MjUzMDI5NTIsMTE3MDY1ODQwOSwtOD
+YzMDIxMjk5LC05MTU4MzU2NzksMTYxNDQwOTY2OSw0ODM3MTc3
+OTgsMjAwNDgxNjIzNywtMTM0MTA4NzQwMiwxNzcyMTI5NTU2LD
+EyMTY2MDYwNjgsLTEzMzc2NTQzNTgsLTE3MDIzMTg4NTAsMzAz
+MzY5NjgsMjA3NzQzMDUzMywtMTExMjQ4MTI0NywxNzQ0NTMwMz
+YsLTQ4ODIyNzA0LC0xMDc3MDc4NTRdfQ==
 -->
