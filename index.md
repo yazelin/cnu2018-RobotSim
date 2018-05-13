@@ -300,9 +300,7 @@ public class RobotCommandGripper : RobotCommand
 ![Image](./img/UI.jpg)
   - UI階層  
   ![Image](./img/UIHierarchy.jpg)
-
-- UI控制手臂程式碼 RobotCommandControlRobot
-
+  - UI控制手臂程式碼 RobotCommandControlRobot  
 ```cs
 //RobotCommandControlRobot.cs
 using UnityEngine;
@@ -425,7 +423,7 @@ public class RobotCommandControlRobot : RobotCommand
 }
 ```
 
-## 夾爪控制
+- 修改)夾爪控制
 修改夾爪控制程式碼，當夾爪張開時，物體向下掉落。
 
 ```cs
@@ -457,11 +455,11 @@ public class RobotCommandControlRobot : RobotCommand
   - Collider IsTrigger 為 False 
   - Rigidbody use Gravity 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzgwOTMyOTUsLTE5MTA4OTIxNzAsLT
-EzODIyODM4OTAsMTE3MDY1ODQwOSwtODYzMDIxMjk5LC05MTU4
-MzU2NzksMTYxNDQwOTY2OSw0ODM3MTc3OTgsMjAwNDgxNjIzNy
-wtMTM0MTA4NzQwMiwxNzcyMTI5NTU2LDEyMTY2MDYwNjgsLTEz
-Mzc2NTQzNTgsLTE3MDIzMTg4NTAsMzAzMzY5NjgsMjA3NzQzMD
-UzMywtMTExMjQ4MTI0NywxNzQ0NTMwMzYsLTQ4ODIyNzA0LC0x
-MDc3MDc4NTRdfQ==
+eyJoaXN0b3J5IjpbNDgwODUzMDY2LC0xOTEwODkyMTcwLC0xMz
+gyMjgzODkwLDExNzA2NTg0MDksLTg2MzAyMTI5OSwtOTE1ODM1
+Njc5LDE2MTQ0MDk2NjksNDgzNzE3Nzk4LDIwMDQ4MTYyMzcsLT
+EzNDEwODc0MDIsMTc3MjEyOTU1NiwxMjE2NjA2MDY4LC0xMzM3
+NjU0MzU4LC0xNzAyMzE4ODUwLDMwMzM2OTY4LDIwNzc0MzA1Mz
+MsLTExMTI0ODEyNDcsMTc0NDUzMDM2LC00ODgyMjcwNCwtMTA3
+NzA3ODU0XX0=
 -->
