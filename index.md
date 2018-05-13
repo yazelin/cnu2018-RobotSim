@@ -445,7 +445,7 @@ public class RobotCommandControlRobot : RobotCommand
 	}
 ```
 
-# 使用物理方式夾取物件(Collider 
+# 使用物理方式夾取物件 ( Collider & Rigidbody )
 - 建模 Cube夾爪
 - 動畫 Animator
   - 必需要有Idle、Lock、UnLock 三組動畫
@@ -456,11 +456,11 @@ public class RobotCommandControlRobot : RobotCommand
   - Collider IsTrigger 為 False 
   - Rigidbody use Gravity 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MTUxNDA1NSwtOTUzMzEwMDA1LDgzMD
-g4ODI1LC0xOTEwODkyMTcwLC0xMzgyMjgzODkwLDExNzA2NTg0
-MDksLTg2MzAyMTI5OSwtOTE1ODM1Njc5LDE2MTQ0MDk2NjksND
-gzNzE3Nzk4LDIwMDQ4MTYyMzcsLTEzNDEwODc0MDIsMTc3MjEy
-OTU1NiwxMjE2NjA2MDY4LC0xMzM3NjU0MzU4LC0xNzAyMzE4OD
-UwLDMwMzM2OTY4LDIwNzc0MzA1MzMsLTExMTI0ODEyNDcsMTc0
-NDUzMDM2XX0=
+eyJoaXN0b3J5IjpbLTEwMjcxNTI0OTcsLTk1MzMxMDAwNSw4Mz
+A4ODgyNSwtMTkxMDg5MjE3MCwtMTM4MjI4Mzg5MCwxMTcwNjU4
+NDA5LC04NjMwMjEyOTksLTkxNTgzNTY3OSwxNjE0NDA5NjY5LD
+Q4MzcxNzc5OCwyMDA0ODE2MjM3LC0xMzQxMDg3NDAyLDE3NzIx
+Mjk1NTYsMTIxNjYwNjA2OCwtMTMzNzY1NDM1OCwtMTcwMjMxOD
+g1MCwzMDMzNjk2OCwyMDc3NDMwNTMzLC0xMTEyNDgxMjQ3LDE3
+NDQ1MzAzNl19
 -->
