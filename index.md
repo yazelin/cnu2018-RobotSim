@@ -107,9 +107,8 @@ Unit還有這種使用方式(之二)?! 只有想不到，沒有做不到。
 - 規劃一條生產線? 可以
 - 加入其他品牌的手臂? 當然
 - 設計一套自動化流程，產生各種手臂的運動程式? 沒問題
-
-## 你想做什麼?
-[歡迎加入RobotSim討論區](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4).
+- 你想做什麼?
+  - [歡迎加入RobotSim討論區](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4).
   
 
 
@@ -128,7 +127,7 @@ Unit還有這種使用方式(之二)?! 只有想不到，沒有做不到。
     ![Image](./img/Takoyaki.gif)  
 
 
-## 夾爪程式 Gripper
+1‧ 夾爪程式 Gripper
 
 ```cs
 //Gripper.cs
@@ -464,11 +463,11 @@ public class RobotCommandControlRobot : RobotCommand
   - Collider IsTrigger 為 False 
   - Rigidbody use Gravity 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1OTI2MjU5OSwtMTkxMDg5MjE3MCwtMT
-M4MjI4Mzg5MCwxMTcwNjU4NDA5LC04NjMwMjEyOTksLTkxNTgz
-NTY3OSwxNjE0NDA5NjY5LDQ4MzcxNzc5OCwyMDA0ODE2MjM3LC
-0xMzQxMDg3NDAyLDE3NzIxMjk1NTYsMTIxNjYwNjA2OCwtMTMz
-NzY1NDM1OCwtMTcwMjMxODg1MCwzMDMzNjk2OCwyMDc3NDMwNT
-MzLC0xMTEyNDgxMjQ3LDE3NDQ1MzAzNiwtNDg4MjI3MDQsLTEw
-NzcwNzg1NF19
+eyJoaXN0b3J5IjpbMTUwOTMwNTc5LC0xOTEwODkyMTcwLC0xMz
+gyMjgzODkwLDExNzA2NTg0MDksLTg2MzAyMTI5OSwtOTE1ODM1
+Njc5LDE2MTQ0MDk2NjksNDgzNzE3Nzk4LDIwMDQ4MTYyMzcsLT
+EzNDEwODc0MDIsMTc3MjEyOTU1NiwxMjE2NjA2MDY4LC0xMzM3
+NjU0MzU4LC0xNzAyMzE4ODUwLDMwMzM2OTY4LDIwNzc0MzA1Mz
+MsLTExMTI0ODEyNDcsMTc0NDUzMDM2LC00ODgyMjcwNCwtMTA3
+NzA3ODU0XX0=
 -->
