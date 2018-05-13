@@ -16,8 +16,8 @@
 1. Maya [wiki](https://zh.wikipedia.org/wiki/Maya)
 1. 3dMax [wiki](https://zh.wikipedia.org/wiki/3ds_Max)
 
-> * 這些工具能只能做遊戲、APP或AR/VR嗎?
-> * 擔心學了以後無處可用嗎?
+> - 這些工具能只能做遊戲、APP或AR/VR嗎?
+> - 擔心學了以後無處可用嗎?
 > * 這幾週的課程內容會教大家，我們是怎麼把工具當作工具用
 
 例用工具解決問題
@@ -288,10 +288,10 @@ public class RobotCommandGripper : RobotCommand
 - ExportDat()
  
 # 夾娃娃機控制
-- UI控制
-- 更新手臂動作
-- (修改)夾爪控制
-- Demo
+1. UI控制
+1. 更新手臂動作
+1. (修改)夾爪控制
+1. Demo
 > 簡單的試夾一下~
 > ![Image](./img/ClawMachine.gif)
 
@@ -460,7 +460,7 @@ public class RobotCommandControlRobot : RobotCommand
   - Collider IsTrigger 為 False 
   - Rigidbody use Gravity 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MzI0OTQzMSwtMTkxMDg5MjE3MCwtMT
+eyJoaXN0b3J5IjpbLTM5ODgwMDI2OSwtMTkxMDg5MjE3MCwtMT
 M4MjI4Mzg5MCwxMTcwNjU4NDA5LC04NjMwMjEyOTksLTkxNTgz
 NTY3OSwxNjE0NDA5NjY5LDQ4MzcxNzc5OCwyMDA0ODE2MjM3LC
 0xMzQxMDg3NDAyLDE3NzIxMjk1NTYsMTIxNjYwNjA2OCwtMTMz
