@@ -49,7 +49,7 @@
 
 
 - 同學們的遊戲時間
-大家邊玩邊我們邊了解一些機器手臂的運作及相關背景知識 
+大家邊玩邊我們邊了解一些機器手臂的運作及相關背景知識  
 ![Image](./img/RobotCoordinateSystem.jpg)
 - 在模擬器中我們可以學到這些
 	- 座標系
@@ -69,10 +69,10 @@
 		- 先教點
 		- 用指令讓手臂重現動作 
 
-- TOOL
+- TOOL  
 ![Image](./img/Tool.jpg)
  
-- A1~A6
+- A1~A6  
 ![Image](./img/RobotAxis.jpg)
     
 - 實際上機器手臂的硬體有這幾個部份 
@@ -81,7 +81,7 @@
 	1. 機器手臂教導盒 
 	1. 連接線
 
-- 圖 
+- 圖   
 ![Image](./img/RobotSystem.jpg)
 
 ## 探索新世界-RobotSim
@@ -460,11 +460,11 @@ public class RobotCommandControlRobot : RobotCommand
   - Collider IsTrigger 為 False 
   - Rigidbody use Gravity 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MzE4NDQ5OCwtMTkxMDg5MjE3MCwtMT
-M4MjI4Mzg5MCwxMTcwNjU4NDA5LC04NjMwMjEyOTksLTkxNTgz
-NTY3OSwxNjE0NDA5NjY5LDQ4MzcxNzc5OCwyMDA0ODE2MjM3LC
-0xMzQxMDg3NDAyLDE3NzIxMjk1NTYsMTIxNjYwNjA2OCwtMTMz
-NzY1NDM1OCwtMTcwMjMxODg1MCwzMDMzNjk2OCwyMDc3NDMwNT
-MzLC0xMTEyNDgxMjQ3LDE3NDQ1MzAzNiwtNDg4MjI3MDQsLTEw
-NzcwNzg1NF19
+eyJoaXN0b3J5IjpbNjA5NzA1MTU4LC0xOTEwODkyMTcwLC0xMz
+gyMjgzODkwLDExNzA2NTg0MDksLTg2MzAyMTI5OSwtOTE1ODM1
+Njc5LDE2MTQ0MDk2NjksNDgzNzE3Nzk4LDIwMDQ4MTYyMzcsLT
+EzNDEwODc0MDIsMTc3MjEyOTU1NiwxMjE2NjA2MDY4LC0xMzM3
+NjU0MzU4LC0xNzAyMzE4ODUwLDMwMzM2OTY4LDIwNzc0MzA1Mz
+MsLTExMTI0ODEyNDcsMTc0NDUzMDM2LC00ODgyMjcwNCwtMTA3
+NzA3ODU0XX0=
 -->
