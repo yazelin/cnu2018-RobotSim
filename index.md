@@ -295,14 +295,11 @@ public class RobotCommandGripper : RobotCommand
 > 簡單的試夾一下~
 > ![Image](./img/ClawMachine.gif)
 
-## UI控制
-- 加入UI
-
+* UI控制
+  - 加入UI  
 ![Image](./img/UI.jpg)
-- UI階層
-
-![Image](./img/UIHierarchy.jpg)
-
+  - UI階層  
+  ![Image](./img/UIHierarchy.jpg)
 
 - UI控制手臂程式碼 RobotCommandControlRobot
 
@@ -460,11 +457,11 @@ public class RobotCommandControlRobot : RobotCommand
   - Collider IsTrigger 為 False 
   - Rigidbody use Gravity 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzODg1NTg2MSwtMTkxMDg5MjE3MCwtMT
-M4MjI4Mzg5MCwxMTcwNjU4NDA5LC04NjMwMjEyOTksLTkxNTgz
-NTY3OSwxNjE0NDA5NjY5LDQ4MzcxNzc5OCwyMDA0ODE2MjM3LC
-0xMzQxMDg3NDAyLDE3NzIxMjk1NTYsMTIxNjYwNjA2OCwtMTMz
-NzY1NDM1OCwtMTcwMjMxODg1MCwzMDMzNjk2OCwyMDc3NDMwNT
-MzLC0xMTEyNDgxMjQ3LDE3NDQ1MzAzNiwtNDg4MjI3MDQsLTEw
-NzcwNzg1NF19
+eyJoaXN0b3J5IjpbLTE5MzgwOTMyOTUsLTE5MTA4OTIxNzAsLT
+EzODIyODM4OTAsMTE3MDY1ODQwOSwtODYzMDIxMjk5LC05MTU4
+MzU2NzksMTYxNDQwOTY2OSw0ODM3MTc3OTgsMjAwNDgxNjIzNy
+wtMTM0MTA4NzQwMiwxNzcyMTI5NTU2LDEyMTY2MDYwNjgsLTEz
+Mzc2NTQzNTgsLTE3MDIzMTg4NTAsMzAzMzY5NjgsMjA3NzQzMD
+UzMywtMTExMjQ4MTI0NywxNzQ0NTMwMzYsLTQ4ODIyNzA0LC0x
+MDc3MDc4NTRdfQ==
 -->
