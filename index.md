@@ -11,6 +11,10 @@
   * [連結1](https://www.facebook.com/wisetech.dakuo/videos/1212236958861791/)
   * [連結2](https://www.facebook.com/wisetech.dakuo/videos/1225804447505042/)
 
+## 工具們
+1. Unity [wiki](https://zh.wikipedia.org/wiki/Unity_(%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E))
+1. Maya [wiki](https://zh.wikipedia.org/wiki/Maya)
+1. 3dMax [wiki](https://zh.wikipedia.org/wiki/3ds_Max)
 
 > * 這些工具能只能做遊戲、APP或AR/VR嗎?
 > * 擔心學了以後無處可用嗎?
@@ -456,7 +460,7 @@ public class RobotCommandControlRobot : RobotCommand
   - Collider IsTrigger 為 False 
   - Rigidbody use Gravity 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjk1ODc0OCwtMTkxMDg5MjE3MCwtMT
+eyJoaXN0b3J5IjpbMTQ5MzE4NDQ5OCwtMTkxMDg5MjE3MCwtMT
 M4MjI4Mzg5MCwxMTcwNjU4NDA5LC04NjMwMjEyOTksLTkxNTgz
 NTY3OSwxNjE0NDA5NjY5LDQ4MzcxNzc5OCwyMDA0ODE2MjM3LC
 0xMzQxMDg3NDAyLDE3NzIxMjk1NTYsMTIxNjYwNjA2OCwtMTMz
