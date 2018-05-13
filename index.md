@@ -84,7 +84,8 @@
 	1. 機器手臂教導盒 
 	1. 連接線
 
-- ![Image](./img/RobotSystem.jpg)
+- 圖 
+![Image](./img/RobotSystem.jpg)
 
 ## 探索新世界-RobotSim
 想看看在Unity內可以怎麼玩機器手臂嗎?  
@@ -463,7 +464,7 @@ public class RobotCommandControlRobot : RobotCommand
   - Collider IsTrigger 為 False 
   - Rigidbody use Gravity 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNjc1Mzk0OSwtMTkxMDg5MjE3MCwtMT
+eyJoaXN0b3J5IjpbLTM1OTI2MjU5OSwtMTkxMDg5MjE3MCwtMT
 M4MjI4Mzg5MCwxMTcwNjU4NDA5LC04NjMwMjEyOTksLTkxNTgz
 NTY3OSwxNjE0NDA5NjY5LDQ4MzcxNzc5OCwyMDA0ODE2MjM3LC
 0xMzQxMDg3NDAyLDE3NzIxMjk1NTYsMTIxNjYwNjA2OCwtMTMz
