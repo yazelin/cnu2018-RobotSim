@@ -2,13 +2,6 @@
 * 官網：[http://www.wtech.com.tw/](http://www.wtech.com.tw/)
 * Facebook：[https://www.facebook.com/wisetech.dakuo/](https://www.facebook.com/wisetech.dakuo/) 
 
-
-## 工具
-1. Unity [wiki](https://zh.wikipedia.org/wiki/Unity_(%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E))
-1. Maya [wiki](https://zh.wikipedia.org/wiki/Maya)
-1. 3dMax [wiki](https://zh.wikipedia.org/wiki/3ds_Max)
-
-
 ## Unity應用案例(廣告時間)
 * Unity+Kinect
   * 例：[愛之味體感互動遊戲](https://www.facebook.com/wisetech.dakuo/videos/885588164860007/)
@@ -127,7 +120,7 @@ Unit還有這種使用方式(之二)?! 只有想不到，沒有做不到。
     ![Image](./img/Takoyaki.gif)  
 
 
-1‧ 夾爪程式 Gripper
+## 夾爪程式 Gripper
 
 ```cs
 //Gripper.cs
@@ -463,11 +456,11 @@ public class RobotCommandControlRobot : RobotCommand
   - Collider IsTrigger 為 False 
   - Rigidbody use Gravity 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwOTMwNTc5LC0xOTEwODkyMTcwLC0xMz
-gyMjgzODkwLDExNzA2NTg0MDksLTg2MzAyMTI5OSwtOTE1ODM1
-Njc5LDE2MTQ0MDk2NjksNDgzNzE3Nzk4LDIwMDQ4MTYyMzcsLT
-EzNDEwODc0MDIsMTc3MjEyOTU1NiwxMjE2NjA2MDY4LC0xMzM3
-NjU0MzU4LC0xNzAyMzE4ODUwLDMwMzM2OTY4LDIwNzc0MzA1Mz
-MsLTExMTI0ODEyNDcsMTc0NDUzMDM2LC00ODgyMjcwNCwtMTA3
-NzA3ODU0XX0=
+eyJoaXN0b3J5IjpbLTExMjk1ODc0OCwtMTkxMDg5MjE3MCwtMT
+M4MjI4Mzg5MCwxMTcwNjU4NDA5LC04NjMwMjEyOTksLTkxNTgz
+NTY3OSwxNjE0NDA5NjY5LDQ4MzcxNzc5OCwyMDA0ODE2MjM3LC
+0xMzQxMDg3NDAyLDE3NzIxMjk1NTYsMTIxNjYwNjA2OCwtMTMz
+NzY1NDM1OCwtMTcwMjMxODg1MCwzMDMzNjk2OCwyMDc3NDMwNT
+MzLC0xMTEyNDgxMjQ3LDE3NDQ1MzAzNiwtNDg4MjI3MDQsLTEw
+NzcwNzg1NF19
 -->
