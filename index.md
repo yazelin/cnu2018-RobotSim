@@ -18,6 +18,7 @@
   * [連結1](https://www.facebook.com/wisetech.dakuo/videos/1212236958861791/)
   * [連結2](https://www.facebook.com/wisetech.dakuo/videos/1225804447505042/)
 
+
 > * 這些工具能只能做遊戲、APP或AR/VR嗎?
 > * 擔心學了以後無處可用嗎?
 > * 這幾週的課程內容會教大家，我們是怎麼把工具當作工具用
@@ -462,11 +463,11 @@ public class RobotCommandControlRobot : RobotCommand
   - Collider IsTrigger 為 False 
   - Rigidbody use Gravity 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyOTQ3NDU0LC0xOTEwODkyMTcwLC0xMz
-gyMjgzODkwLDExNzA2NTg0MDksLTg2MzAyMTI5OSwtOTE1ODM1
-Njc5LDE2MTQ0MDk2NjksNDgzNzE3Nzk4LDIwMDQ4MTYyMzcsLT
-EzNDEwODc0MDIsMTc3MjEyOTU1NiwxMjE2NjA2MDY4LC0xMzM3
-NjU0MzU4LC0xNzAyMzE4ODUwLDMwMzM2OTY4LDIwNzc0MzA1Mz
-MsLTExMTI0ODEyNDcsMTc0NDUzMDM2LC00ODgyMjcwNCwtMTA3
-NzA3ODU0XX0=
+eyJoaXN0b3J5IjpbLTk3NDI2Mzg1NiwtMTkxMDg5MjE3MCwtMT
+M4MjI4Mzg5MCwxMTcwNjU4NDA5LC04NjMwMjEyOTksLTkxNTgz
+NTY3OSwxNjE0NDA5NjY5LDQ4MzcxNzc5OCwyMDA0ODE2MjM3LC
+0xMzQxMDg3NDAyLDE3NzIxMjk1NTYsMTIxNjYwNjA2OCwtMTMz
+NzY1NDM1OCwtMTcwMjMxODg1MCwzMDMzNjk2OCwyMDc3NDMwNT
+MzLC0xMTEyNDgxMjQ3LDE3NDQ1MzAzNiwtNDg4MjI3MDQsLTEw
+NzcwNzg1NF19
 -->
