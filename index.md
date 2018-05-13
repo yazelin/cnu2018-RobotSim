@@ -423,7 +423,7 @@ public class RobotCommandControlRobot : RobotCommand
 }
 ```
 
-- 修改)夾爪控制
+- 修改)夾爪控制  
 修改夾爪控制程式碼，當夾爪張開時，物體向下掉落。
 
 ```cs
@@ -455,7 +455,7 @@ public class RobotCommandControlRobot : RobotCommand
   - Collider IsTrigger 為 False 
   - Rigidbody use Gravity 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgwODUzMDY2LC0xOTEwODkyMTcwLC0xMz
+eyJoaXN0b3J5IjpbODY3NTMyMDQyLC0xOTEwODkyMTcwLC0xMz
 gyMjgzODkwLDExNzA2NTg0MDksLTg2MzAyMTI5OSwtOTE1ODM1
 Njc5LDE2MTQ0MDk2NjksNDgzNzE3Nzk4LDIwMDQ4MTYyMzcsLT
 EzNDEwODc0MDIsMTc3MjEyOTU1NiwxMjE2NjA2MDY4LC0xMzM3
