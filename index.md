@@ -196,7 +196,7 @@ public class Gripper : MonoBehaviour
 
 ```
 
-## 手臂指令程式 RobotCommandGripper
+* 手臂指令程式 RobotCommandGripper
 
 ```cs
 //RobotCommandGripper.cs
@@ -277,7 +277,7 @@ public class RobotCommandGripper : RobotCommand
 }
 ```
 
-## Test 測試夾爪功能
+* Test 測試夾爪功能
 同學們的遊戲時間、程式講解
 
 ## 模擬手臂指令 RobotCommand 流程講解
@@ -460,11 +460,11 @@ public class RobotCommandControlRobot : RobotCommand
   - Collider IsTrigger 為 False 
   - Rigidbody use Gravity 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxOTEwNzM3LC0xOTEwODkyMTcwLC0xMz
-gyMjgzODkwLDExNzA2NTg0MDksLTg2MzAyMTI5OSwtOTE1ODM1
-Njc5LDE2MTQ0MDk2NjksNDgzNzE3Nzk4LDIwMDQ4MTYyMzcsLT
-EzNDEwODc0MDIsMTc3MjEyOTU1NiwxMjE2NjA2MDY4LC0xMzM3
-NjU0MzU4LC0xNzAyMzE4ODUwLDMwMzM2OTY4LDIwNzc0MzA1Mz
-MsLTExMTI0ODEyNDcsMTc0NDUzMDM2LC00ODgyMjcwNCwtMTA3
-NzA3ODU0XX0=
+eyJoaXN0b3J5IjpbMjEzODg1NTg2MSwtMTkxMDg5MjE3MCwtMT
+M4MjI4Mzg5MCwxMTcwNjU4NDA5LC04NjMwMjEyOTksLTkxNTgz
+NTY3OSwxNjE0NDA5NjY5LDQ4MzcxNzc5OCwyMDA0ODE2MjM3LC
+0xMzQxMDg3NDAyLDE3NzIxMjk1NTYsMTIxNjYwNjA2OCwtMTMz
+NzY1NDM1OCwtMTcwMjMxODg1MCwzMDMzNjk2OCwyMDc3NDMwNT
+MzLC0xMTEyNDgxMjQ3LDE3NDQ1MzAzNiwtNDg4MjI3MDQsLTEw
+NzcwNzg1NF19
 -->
