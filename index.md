@@ -12,12 +12,11 @@
 ## Unity應用案例(廣告時間)
 * Unity+Kinect
   * 例：[愛之味體感互動遊戲](https://www.facebook.com/wisetech.dakuo/videos/885588164860007/)
-* 例：[互動射擊裝置](https://www.facebook.com/wisetech.dakuo/videos/664104040341755/)
-
-
-## Unity+leapmotion與機器手臂
-* [連結1](https://www.facebook.com/wisetech.dakuo/videos/1212236958861791/)
-* [連結2](https://www.facebook.com/wisetech.dakuo/videos/1225804447505042/)
+* Unity + 紅外線鐳射 + 攝影機
+  * 例：[互動射擊裝置](https://www.facebook.com/wisetech.dakuo/videos/664104040341755/)
+* Unity+leapmotion與機器手臂
+  * [連結1](https://www.facebook.com/wisetech.dakuo/videos/1212236958861791/)
+  * [連結2](https://www.facebook.com/wisetech.dakuo/videos/1225804447505042/)
 
 > * 這些工具能只能做遊戲、APP或AR/VR嗎?
 > * 擔心學了以後無處可用嗎?
@@ -463,7 +462,7 @@ public class RobotCommandControlRobot : RobotCommand
   - Collider IsTrigger 為 False 
   - Rigidbody use Gravity 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyMjc1ODE0LC0xOTEwODkyMTcwLC0xMz
+eyJoaXN0b3J5IjpbOTYyOTQ3NDU0LC0xOTEwODkyMTcwLC0xMz
 gyMjgzODkwLDExNzA2NTg0MDksLTg2MzAyMTI5OSwtOTE1ODM1
 Njc5LDE2MTQ0MDk2NjksNDgzNzE3Nzk4LDIwMDQ4MTYyMzcsLT
 EzNDEwODc0MDIsMTc3MjEyOTU1NiwxMjE2NjA2MDY4LC0xMzM3
