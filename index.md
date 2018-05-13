@@ -3,14 +3,15 @@
 * Facebook：[https://www.facebook.com/wisetech.dakuo/](https://www.facebook.com/wisetech.dakuo/) 
 
 
-## 業界在互動應用中的工具
+## 工具
 1. Unity [wiki](https://zh.wikipedia.org/wiki/Unity_(%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E))
 1. Maya [wiki](https://zh.wikipedia.org/wiki/Maya)
 1. 3dMax [wiki](https://zh.wikipedia.org/wiki/3ds_Max)
 
 
 ## Unity應用案例(廣告時間)
-* 例：[愛之味體感互動遊戲](https://www.facebook.com/wisetech.dakuo/videos/885588164860007/)
+* Unity+Kinect
+  * 例：[愛之味體感互動遊戲](https://www.facebook.com/wisetech.dakuo/videos/885588164860007/)
 * 例：[互動射擊裝置](https://www.facebook.com/wisetech.dakuo/videos/664104040341755/)
 
 
@@ -462,11 +463,11 @@ public class RobotCommandControlRobot : RobotCommand
   - Collider IsTrigger 為 False 
   - Rigidbody use Gravity 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTA4OTIxNzAsLTEzODIyODM4OTAsMT
-E3MDY1ODQwOSwtODYzMDIxMjk5LC05MTU4MzU2NzksMTYxNDQw
-OTY2OSw0ODM3MTc3OTgsMjAwNDgxNjIzNywtMTM0MTA4NzQwMi
-wxNzcyMTI5NTU2LDEyMTY2MDYwNjgsLTEzMzc2NTQzNTgsLTE3
-MDIzMTg4NTAsMzAzMzY5NjgsMjA3NzQzMDUzMywtMTExMjQ4MT
-I0NywxNzQ0NTMwMzYsLTQ4ODIyNzA0LC0xMDc3MDc4NTRdfQ==
-
+eyJoaXN0b3J5IjpbNzcyMjc1ODE0LC0xOTEwODkyMTcwLC0xMz
+gyMjgzODkwLDExNzA2NTg0MDksLTg2MzAyMTI5OSwtOTE1ODM1
+Njc5LDE2MTQ0MDk2NjksNDgzNzE3Nzk4LDIwMDQ4MTYyMzcsLT
+EzNDEwODc0MDIsMTc3MjEyOTU1NiwxMjE2NjA2MDY4LC0xMzM3
+NjU0MzU4LC0xNzAyMzE4ODUwLDMwMzM2OTY4LDIwNzc0MzA1Mz
+MsLTExMTI0ODEyNDcsMTc0NDUzMDM2LC00ODgyMjcwNCwtMTA3
+NzA3ODU0XX0=
 -->
