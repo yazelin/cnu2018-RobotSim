@@ -23,7 +23,7 @@
 > * 擔心學了以後無處可用嗎?
 > * 這幾週的課程內容會教大家，我們是怎麼把工具當作工具用
 
-解決問題的流程
+例用工具解決問題
 > 1. 發現問題
 > 1. 假設解決辦法
 > 1. 使用工具製作出解決辦法
@@ -51,7 +51,7 @@
 	- 歡迎大家來玩~~~ 
 
 
-## 同學們的遊戲時間
+- 同學們的遊戲時間
 大家邊玩邊我們邊了解一些機器手臂的運作及相關背景知識 
 ![Image](./img/RobotCoordinateSystem.jpg)
 - 在模擬器中我們可以學到這些
@@ -72,10 +72,10 @@
 		- 先教點
 		- 用指令讓手臂重現動作 
 
-## TOOL
+- TOOL
 ![Image](./img/Tool.jpg)
  
-## A1~A6
+- A1~A6
 ![Image](./img/RobotAxis.jpg)
     
 - 實際上機器手臂的硬體有這幾個部份 
@@ -84,7 +84,7 @@
 	1. 機器手臂教導盒 
 	1. 連接線
 
-![Image](./img/RobotSystem.jpg)
+- ![Image](./img/RobotSystem.jpg)
 
 ## 探索新世界-RobotSim
 想看看在Unity內可以怎麼玩機器手臂嗎?  
@@ -463,7 +463,7 @@ public class RobotCommandControlRobot : RobotCommand
   - Collider IsTrigger 為 False 
   - Rigidbody use Gravity 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NDI2Mzg1NiwtMTkxMDg5MjE3MCwtMT
+eyJoaXN0b3J5IjpbMjAwNjc1Mzk0OSwtMTkxMDg5MjE3MCwtMT
 M4MjI4Mzg5MCwxMTcwNjU4NDA5LC04NjMwMjEyOTksLTkxNTgz
 NTY3OSwxNjE0NDA5NjY5LDQ4MzcxNzc5OCwyMDA0ODE2MjM3LC
 0xMzQxMDg3NDAyLDE3NzIxMjk1NTYsMTIxNjYwNjA2OCwtMTMz
