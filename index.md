@@ -218,11 +218,11 @@ public class RobotCommandGripper : RobotCommand
 	{
 		if (gripper)
 		{
-			errorMassage = "Gripper is NULL";
 			return true;
 		}
 		else
 		{
+			errorMassage = "Gripper is NULL";
 			return false;
 		}
 	}
@@ -456,11 +456,11 @@ public class RobotCommandControlRobot : RobotCommand
   - Collider IsTrigger 為 False 
   - Rigidbody use Gravity 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk5MDgxMTM2LC0xMDI3MTUyNDk3LC05NT
-MzMTAwMDUsODMwODg4MjUsLTE5MTA4OTIxNzAsLTEzODIyODM4
-OTAsMTE3MDY1ODQwOSwtODYzMDIxMjk5LC05MTU4MzU2NzksMT
-YxNDQwOTY2OSw0ODM3MTc3OTgsMjAwNDgxNjIzNywtMTM0MTA4
-NzQwMiwxNzcyMTI5NTU2LDEyMTY2MDYwNjgsLTEzMzc2NTQzNT
-gsLTE3MDIzMTg4NTAsMzAzMzY5NjgsMjA3NzQzMDUzMywtMTEx
-MjQ4MTI0N119
+eyJoaXN0b3J5IjpbLTcwMDMxMzU0MCw0OTkwODExMzYsLTEwMj
+cxNTI0OTcsLTk1MzMxMDAwNSw4MzA4ODgyNSwtMTkxMDg5MjE3
+MCwtMTM4MjI4Mzg5MCwxMTcwNjU4NDA5LC04NjMwMjEyOTksLT
+kxNTgzNTY3OSwxNjE0NDA5NjY5LDQ4MzcxNzc5OCwyMDA0ODE2
+MjM3LC0xMzQxMDg3NDAyLDE3NzIxMjk1NTYsMTIxNjYwNjA2OC
+wtMTMzNzY1NDM1OCwtMTcwMjMxODg1MCwzMDMzNjk2OCwyMDc3
+NDMwNTMzXX0=
 -->
