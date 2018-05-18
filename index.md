@@ -116,7 +116,6 @@ Unit還有這種使用方式(之二)?! 只有想不到，沒有做不到。
 3. Test 測試夾爪功能  
     - 影片參考 [連結](https://www.youtube.com/watch?v=1RWDpyVuM2E&index=25&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 4. 夾爪建構/動畫 Animator
-5. [連結](http://yazelin.github.io/cnu2018-RobotSim/)
     - 建立夾爪(建模軟體或在Unity內可用ProBuilder)
     - 建立動畫(動畫軟體或在Unity內製作Animator動畫)
     - 於Tool上加入Animator用來播放夾爪動畫(Idle、Lock、UnLock)    
@@ -457,5 +456,5 @@ public class RobotCommandControlRobot : RobotCommand
   - Collider IsTrigger 為 False 
   - Rigidbody use Gravity 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MDY5MzU4OV19
+eyJoaXN0b3J5IjpbLTY4Mjc5NDExNCwtOTkwNjkzNTg5XX0=
 -->
