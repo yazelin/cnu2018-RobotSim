@@ -459,3 +459,6 @@ public class RobotCommandControlRobot : RobotCommand
 - 修改被夾取的物件
   - Collider IsTrigger 為 False 
   - Rigidbody use Gravity 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTQ3MjA2MjM2M119
+-->
