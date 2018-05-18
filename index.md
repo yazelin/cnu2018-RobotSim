@@ -456,6 +456,5 @@ public class RobotCommandControlRobot : RobotCommand
   - Collider IsTrigger 為 False 
   - Rigidbody use Gravity 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NjEwMTQzOSwtNjgyNzk0MTE0LC05OT
-A2OTM1ODldfQ==
+eyJoaXN0b3J5IjpbMTk4NjEwMTQzOV19
 -->
