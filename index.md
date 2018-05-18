@@ -289,6 +289,7 @@ public class RobotCommandGripper : RobotCommand
  
 # 夾娃娃機控制 RobotCommandControlRobot
 1. UI控制
+    - 影片參考 [連結](https://www.youtube.com/watch?v=Joi89JQ4M9A)
 1. 更新手臂動作
 1. (修改)夾爪控制
 1. Demo
