@@ -111,15 +111,16 @@ Unit還有這種使用方式(之二)?! 只有想不到，沒有做不到。
 
 # 加入夾爪Gripper 功能
 1. 夾爪程式
-1. 手臂指令程式
+2. 手臂指令程式
     - 影片參考 [連結](https://www.youtube.com/watch?v=2DKrwhG3KW8&index=24&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
-1. Test 測試夾爪功能  
+3. Test 測試夾爪功能  
     - 影片參考 [連結](https://www.youtube.com/watch?v=1RWDpyVuM2E&index=25&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
-1. 夾爪建構/動畫 Animator
+4. 夾爪建構/動畫 Animator
+5. [連結](http://yazelin.github.io/cnu2018-RobotSim/)
     - 建立夾爪(建模軟體或在Unity內可用ProBuilder)
     - 建立動畫(動畫軟體或在Unity內製作Animator動畫)
     - 於Tool上加入Animator用來播放夾爪動畫(Idle、Lock、UnLock)    
-1. Demo 
+6. Demo 
     > 客人這是你的章魚燒。給你~不給你~再給你~才怪~啦啦啦~  
     ![Image](./img/Takoyaki.gif)  
 
@@ -456,11 +457,5 @@ public class RobotCommandControlRobot : RobotCommand
   - Collider IsTrigger 為 False 
   - Rigidbody use Gravity 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDMxMzU0MCw0OTkwODExMzYsLTEwMj
-cxNTI0OTcsLTk1MzMxMDAwNSw4MzA4ODgyNSwtMTkxMDg5MjE3
-MCwtMTM4MjI4Mzg5MCwxMTcwNjU4NDA5LC04NjMwMjEyOTksLT
-kxNTgzNTY3OSwxNjE0NDA5NjY5LDQ4MzcxNzc5OCwyMDA0ODE2
-MjM3LC0xMzQxMDg3NDAyLDE3NzIxMjk1NTYsMTIxNjYwNjA2OC
-wtMTMzNzY1NDM1OCwtMTcwMjMxODg1MCwzMDMzNjk2OCwyMDc3
-NDMwNTMzXX0=
+eyJoaXN0b3J5IjpbLTk5MDY5MzU4OV19
 -->
