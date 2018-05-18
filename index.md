@@ -289,7 +289,9 @@ public class RobotCommandGripper : RobotCommand
  
 # 夾娃娃機控制 RobotCommandControlRobot
 1. UI控制
-    - 影片參考 [連結](https://www.youtube.com/watch?v=Joi89JQ4M9A)
+    - 影片參考 [連結](
+https://www.youtube.com/watch?v=Joi89JQ4M9A&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo
+https://www.youtube.com/watch?v=Joi89JQ4M9A)
 1. 更新手臂動作
 1. (修改)夾爪控制
 1. Demo
@@ -460,5 +462,5 @@ public class RobotCommandControlRobot : RobotCommand
   - Collider IsTrigger 為 False 
   - Rigidbody use Gravity 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MjA2MjM2M119
+eyJoaXN0b3J5IjpbLTMyNzEwNzI0N119
 -->
