@@ -1,4 +1,4 @@
-# 卓智創意互動科技
+﻿# 卓智創意互動科技
 - 官網：[http://www.wtech.com.tw/](http://www.wtech.com.tw/)
 - Facebook：[https://www.facebook.com/wisetech.dakuo/](https://www.facebook.com/wisetech.dakuo/) 
 
@@ -446,6 +446,9 @@ public class RobotCommandControlRobot : RobotCommand
 ```
 
 # 使用物理方式夾取物件 Collider & Rigidbody
+抓抓  
+![enter image description here](./img/catchcatch.gif)  
+
 - 建模 Cube夾爪
 - 動畫 Animator
   - 必需要有Idle、Lock、UnLock 三組動畫
@@ -455,6 +458,3 @@ public class RobotCommandControlRobot : RobotCommand
 - 修改被夾取的物件
   - Collider IsTrigger 為 False 
   - Rigidbody use Gravity 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDMxMzU0MCwxOTg2MTAxNDM5XX0=
--->
