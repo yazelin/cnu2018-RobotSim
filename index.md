@@ -447,11 +447,11 @@ public class RobotCommandControlRobot : RobotCommand
 ```
 
 # 使用物理方式夾取物件 Collider & Rigidbody
-抓抓  
+1. 抓抓  
 ![enter image description here](./img/catchcatch.gif)  
-- 影片參考 [連結](https://www.youtube.com/watch?v=YCPRLx4OOZE&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo&index=28&app=desktop)
-- 建模 Cube夾爪
-- 動畫 Animator
+  - 影片參考 [連結](https://www.youtube.com/watch?v=YCPRLx4OOZE&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo&index=28&app=desktop)
+1. 建模 Cube夾爪
+1. 動畫 Animator
   - 必需要有Idle、Lock、UnLock 三組動畫
   - Idle 當夾爪預設無動作時
   - Lock 夾爪夾取動作
@@ -460,5 +460,5 @@ public class RobotCommandControlRobot : RobotCommand
   - Collider IsTrigger 為 False 
   - Rigidbody use Gravity 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzk1OTQwNywtMTI4MTU1NzAzN119
+eyJoaXN0b3J5IjpbMjAzMDA2NjU2LC0xMjgxNTU3MDM3XX0=
 -->
