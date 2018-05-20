@@ -457,9 +457,9 @@ public class RobotCommandControlRobot : RobotCommand
 1. 修改被夾取的物件
    - Collider IsTrigger 為 False 
    - Rigidbody use Gravity
-1. 抓抓
+1. DEMO 抓抓
 ![enter image description here](./img/catchcatch.gif)  
    - 影片參考 [連結](https://www.youtube.com/watch?v=YCPRLx4OOZE&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo&index=28&app=desktop)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1ODUzNDc4MCwtMTI4MTU1NzAzN119
+eyJoaXN0b3J5IjpbMzEyMzk4NTcsLTEyODE1NTcwMzddfQ==
 -->
