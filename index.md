@@ -292,8 +292,8 @@ public class RobotCommandGripper : RobotCommand
     - 影片參考 [連結](https://www.youtube.com/watch?v=Joi89JQ4M9A&index=28&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo)
 1. 更新手臂動作
 1. (修改)夾爪控制
-1. Demo
     - 影片參考 [連結](https://www.youtube.com/watch?v=YCPRLx4OOZE&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo&index=28&app=desktop)
+1. Demo
 > 簡單的試夾一下~
 > ![Image](./img/ClawMachine.gif)
 
