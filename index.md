@@ -86,7 +86,7 @@
 
 ## 探索新世界-RobotSim
 想看看在Unity內可以怎麼玩機器手臂嗎?  
-Unit還有這種使用方式(之二)?! 只有想不到，沒有做不到。
+Unity還有這種使用方式(之二)?! 只有想不到，沒有做不到。
 > 想像力是你的超能力 
 
 - RobotSim 下載-安裝-試用
@@ -462,5 +462,5 @@ public class RobotCommandControlRobot : RobotCommand
 ![enter image description here](./img/catchcatch.gif)  
    - 影片參考 [連結](https://www.youtube.com/watch?v=YCPRLx4OOZE&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo&index=28&app=desktop)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQyMTY4NzE5LC0xMjgxNTU3MDM3XX0=
+eyJoaXN0b3J5IjpbMTQ5NjE3NTg1NiwtMTI4MTU1NzAzN119
 -->
