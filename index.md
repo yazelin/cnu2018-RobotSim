@@ -44,7 +44,7 @@
 
 - 使用解決辦法來解決問題
 	- 我們把模擬器放到網站上了
-	- 網址在這邊 [RobotSim WebPlayer](http://www.wtech.com.tw/robotsim)
+	- 網址在這邊 [RobotSim WebPlayer](http://www.wtech.com.tw/robotsim/demo)
 	- 歡迎大家來玩~~~ 
 
 
