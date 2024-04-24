@@ -105,7 +105,7 @@ Unity還有這種使用方式(之二)?! 只有想不到，沒有做不到。
 - 加入其他品牌的手臂? 當然
 - 設計一套自動化流程，產生各種手臂的運動程式? 沒問題
 - 你想做什麼?
-  - [歡迎加入RobotSim討論區](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4).
+  - [歡迎加入RobotSim討論區](http://forum.wtech.com.tw/viewforum.php?f=20).
   
 
 
